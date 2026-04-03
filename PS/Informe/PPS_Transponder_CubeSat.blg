@@ -1,0 +1,24 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'PPS_Transponder_CubeSat.blg'
+[89] biber-MSWIN64:340> INFO - === 
+[120] Biber.pm:419> INFO - Reading 'PPS_Transponder_CubeSat.bcf'
+[204] Biber.pm:979> INFO - Found 18 citekeys in bib section 0
+[215] Biber.pm:4419> INFO - Processing section 0
+[225] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[266] bibtex.pm:1713> INFO - LaTeX decoding ...
+[284] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[356] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[356] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[356] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[367] bbl.pm:660> INFO - Writing 'PPS_Transponder_CubeSat.bbl' with encoding 'UTF-8'
+[372] bbl.pm:763> INFO - Output to PPS_Transponder_CubeSat.bbl
+[372] Biber.pm:131> WARN - Duplicate entry key: 'CIFP2020' in file 'bibliografia.bib', skipping ...
+[372] Biber.pm:131> WARN - legacy month field 'February' in entry 'CDS2022' is not an integer - this will probably not sort properly.
+[372] Biber.pm:131> WARN - legacy month field 'March' in entry 'CIFP2020' is not an integer - this will probably not sort properly.
+[372] Biber.pm:131> WARN - legacy month field 'April' in entry 'NASA87156E' is not an integer - this will probably not sort properly.
+[372] Biber.pm:131> WARN - legacy month field 'April' in entry 'GSFC7000A2013' is not an integer - this will probably not sort properly.
+[372] Biber.pm:131> WARN - legacy month field 'September' in entry 'SMCS016_2014' is not an integer - this will probably not sort properly.
+[372] Biber.pm:131> WARN - legacy month field 'oct' in entry 'pc104:spec2008_report' is not an integer - this will probably not sort properly.
+[372] Biber.pm:131> WARN - legacy month field 'oct' in entry 'pc104plus:spec2008_report' is not an integer - this will probably not sort properly.
+[372] Biber.pm:131> WARN - legacy month field 'dec' in entry 'pci:spec1998_report' is not an integer - this will probably not sort properly.
+[372] Biber.pm:133> INFO - WARNINGS: 9

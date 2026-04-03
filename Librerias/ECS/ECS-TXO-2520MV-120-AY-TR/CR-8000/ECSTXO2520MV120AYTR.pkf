@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ECSTXO2520MV120AYTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ECSTXO2520MV120AYTR")
+        (spec "default")
+    )
+)

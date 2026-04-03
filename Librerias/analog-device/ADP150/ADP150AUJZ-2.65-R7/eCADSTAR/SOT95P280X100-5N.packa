@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ADP150AUJZ-2_65-R7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-07-31-11:18:25)
+    (mountForm default
+        (footprintRef "SOT95P280X100-5N")
+        (spec "System")
+    )
+)

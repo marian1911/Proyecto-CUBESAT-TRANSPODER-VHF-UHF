@@ -1,0 +1,16 @@
+.ADF4117BRUZ-RL7 :1 ;Single, Integer-N 1.2 GHz PLL
+SOP65P640X120-16N
+*STM IC
+*NGS
+*PLB 1="FLO" 2="CP" 3="CPGND" 4="AGND" 5="RFINB" 6="RFINA" 7="AVDD" 8="REFIN" 9="DGND" 10="CE" 11="CLK" 12="DATA" 13="LE" 14="MUXOUT" 15="DVDD" 16="VP"
+*MXP 16
+*DFN ADF4117BRUZ-RL7
+~!Mouser Part Number (584-ADF4117BRUZ-R7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADF4117BRUZ-RL7?qs=BpaRKvA4VqF9w8dTySOKZw%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (ADF4117BRUZ-RL7)
+~!Link Datasheet (https://www.analog.com/ADF4117/datasheet)
+~!Height (1.2mm)
+~!3D_Model (ADF4117BRUZ-RL7)
+ADF4117BRUZ-RL7
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

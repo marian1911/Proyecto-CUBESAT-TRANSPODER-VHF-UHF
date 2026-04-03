@@ -1,0 +1,5 @@
+define BGA711N7_cktName(Pin1 Pin2 )
+parameters File="" Temp="" 
+#uselib "ckt", "S2P" 
+S2P:X1 Pin1 Pin2 0 File=File Temp=Temp 
+end BGA711N7_cktName 

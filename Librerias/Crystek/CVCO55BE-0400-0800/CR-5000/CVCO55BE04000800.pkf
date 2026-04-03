@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CVCO55BE04000800"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CVCO55BE04000800")
+        (spec "default")
+    )
+)

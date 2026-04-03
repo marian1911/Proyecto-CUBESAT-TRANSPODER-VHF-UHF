@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=ADF4117BRUZ-RL7
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=2.1
+Released=2024-10-16 13:34:27
+Downloaded=2026-03-12 02:06:16
+3D=Y

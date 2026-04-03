@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BGB_741L7ESD_E6327'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "BGB 741L7ESD E6327" (!) = "", "BGB741L7ESDE6327", "Other", "726-BGB741L7ESDE63", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGB-741L7ESD-E6327?qs=nTClRYuuQBouXaJjSylDSQ%3D%3D", "Infineon BGB741L7ESD BGB 741L7ESD E6327, RF Amplifier Low Noise, 21.5 dB 5 GHz, 6-Pin TSLP-7-1", "https://www.infineon.com/dgdl/Infineon-BGB741L7ESD-DS-v03_00-EN.pdf?fileId=5546d46265f064ff016638972c994ed7&redirId=115243", "0.55 mm"
+END_PART
+
+END.

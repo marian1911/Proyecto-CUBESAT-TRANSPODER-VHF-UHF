@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TCCH_80_'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "TCCH-80+" (!) = "", "TCCH80", "Other", "139-TCCH-80", "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/TCCH-80%2b?qs=xZ%2FP%252Ba9zWqbIZgt27nGgHg%3D%3D", "RF Choke", "https://www.minicircuits.com/pdfs/TCCH-80+.pdf", "3.81 mm"
+END_PART
+
+END.

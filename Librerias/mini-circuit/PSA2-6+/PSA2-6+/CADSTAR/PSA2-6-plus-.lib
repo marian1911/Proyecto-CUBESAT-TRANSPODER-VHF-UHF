@@ -1,0 +1,16 @@
+.PSA2-6-plus- :1 ;RF Amplifier SMT Low Noise Amplifier, DC - 7 GHz, 50?
+SOT65P215X100-6N
+*STM IC
+*NGS
+*PLB 1="RF-IN" 2="GND_1" 3="GND_2" 4="RF-OUT & VD" 5="GND_3" 6="GND_4"
+*MXP 6
+*DFN PSA2-6-plus-
+~!Mouser Part Number (139-PSA2-6+)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Mini-Circuits/PSA2-6%2b?qs=ZcfC38r4PouoCLCeNyH1xw%3D%3D)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (PSA2-6+)
+~!Link Datasheet (https://www.mouser.cn/datasheet/2/1030/PSA2_6_2b-3421589.pdf)
+~!Height (1mm)
+~!3D_Model (PSA2-6+)
+PSA2-6-plus-
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

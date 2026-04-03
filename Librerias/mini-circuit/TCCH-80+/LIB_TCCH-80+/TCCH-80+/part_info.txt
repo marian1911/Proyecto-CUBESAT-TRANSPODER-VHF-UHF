@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=TCCH-80+
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2019-01-09 14:47:44
+Downloaded=2025-10-25 03:24:41
+3D=Y

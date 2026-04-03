@@ -1,0 +1,16 @@
+.PGA-103-plus- :1 ;RF Amplifier SMT Low Noise Amplifier, 50Ohm - 4000 MHz, 50
+GVA63
+*STM IC
+*NGS
+*PLB 1="RF-IN" 2="GND_1" 3="RF-OUT & DC IN" 4="GND_2"
+*MXP 4
+*DFN PGA-103-plus-
+~!Mouser Part Number (139-PGA-103)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Mini-Circuits/PGA-103%2b?qs=xZ%2FP%252Ba9zWqZWniifnGTm5A%3D%3D)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (PGA-103+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/PGA-103+.pdf)
+~!Height (1mm)
+~!3D_Model (PGA-103+)
+PGA-103-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 

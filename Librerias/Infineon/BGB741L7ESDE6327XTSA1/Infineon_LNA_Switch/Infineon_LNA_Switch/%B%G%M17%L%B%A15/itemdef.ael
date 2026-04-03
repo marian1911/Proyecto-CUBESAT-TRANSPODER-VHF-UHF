@@ -1,0 +1,601 @@
+set_simulator_type(1); 
+set_design_type(analogRFnet); 
+
+
+/*---------forms and formset------------------*/
+
+
+
+
+
+/*---------global variables------------------*/
+
+decl type_default = "BGM17LBA15 RX1 HighGain Vcc=2.8V"; 
+
+/*---------forms and formset------------------*/
+
+create_constant_form("BGM17LBA15 RX1 HighGain Vcc=2.8V","BGM17LBA15 RX1 HighGain Vcc=2.8V", 0, " ", "BGM17LBA15 RX1 HighGain Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX1 HighGain Vcc=1.8V","BGM17LBA15 RX1 HighGain Vcc=1.8V", 0, " ", "BGM17LBA15 RX1 HighGain Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX1 Bypass Vcc=2.8V","BGM17LBA15 RX1 Bypass Vcc=2.8V", 0, " ", "BGM17LBA15 RX1 Bypass Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX1 Bypass Vcc=1.8V","BGM17LBA15 RX1 Bypass Vcc=1.8V", 0, " ", "BGM17LBA15 RX1 Bypass Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX2  HighGain Vcc=2.8V","BGM17LBA15 RX2  HighGain Vcc=2.8V", 0, " ", "BGM17LBA15 RX2  HighGain Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX2 HighGain Vcc=1.8V","BGM17LBA15 RX2 HighGain Vcc=1.8V", 0, " ", "BGM17LBA15 RX2 HighGain Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX2 Bypass Vcc=2.8V","BGM17LBA15 RX2 Bypass Vcc=2.8V", 0, " ", "BGM17LBA15 RX2 Bypass Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX2 Bypass Vcc=1.8V","BGM17LBA15 RX2 Bypass Vcc=1.8V", 0, " ", "BGM17LBA15 RX2 Bypass Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX3 HighGain Vcc=2.8V","BGM17LBA15 RX3 HighGain Vcc=2.8V", 0, " ", "BGM17LBA15 RX3 HighGain Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX3 HighGain Vcc=1.8V","BGM17LBA15 RX3 HighGain Vcc=1.8V", 0, " ", "BGM17LBA15 RX3 HighGain Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX3 Bypass Vcc=2.8V","BGM17LBA15 RX3 Bypass Vcc=2.8V", 0, " ", "BGM17LBA15 RX3 Bypass Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX3 Bypass Vcc=1.8V","BGM17LBA15 RX3 Bypass Vcc=1.8V", 0, " ", "BGM17LBA15 RX3 Bypass Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX4 HighGain Vcc=2.8V","BGM17LBA15 RX4 HighGain Vcc=2.8V", 0, " ", "BGM17LBA15 RX4 HighGain Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX4 HighGain Vcc=1.8V","BGM17LBA15 RX4 HighGain Vcc=1.8V", 0, " ", "BGM17LBA15 RX4 HighGain Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX4 Bypass Vcc=2.8V","BGM17LBA15 RX4 Bypass Vcc=2.8V", 0, " ", "BGM17LBA15 RX4 Bypass Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX4 Bypass Vcc=1.8V","BGM17LBA15 RX4 Bypass Vcc=1.8V", 0, " ", "BGM17LBA15 RX4 Bypass Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX5 HighGain Vcc=2.8V","BGM17LBA15 RX5 HighGain Vcc=2.8V", 0, " ", "BGM17LBA15 RX5 HighGain Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX5 HighGain Vcc=1.8V","BGM17LBA15 RX5 HighGain Vcc=1.8V", 0, " ", "BGM17LBA15 RX5 HighGain Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX5 Bypass Vcc=2.8V","BGM17LBA15 RX5 Bypass Vcc=2.8V", 0, " ", "BGM17LBA15 RX5 Bypass Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX5 Bypass Vcc=1.8V","BGM17LBA15 RX5 Bypass Vcc=1.8V", 0, " ", "BGM17LBA15 RX5 Bypass Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX6 HighGain Vcc=2.8V","BGM17LBA15 RX6 HighGain Vcc=2.8V", 0, " ", "BGM17LBA15 RX6 HighGain Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX6 HighGain Vcc=1.8V","BGM17LBA15 RX6 HighGain Vcc=1.8V", 0, " ", "BGM17LBA15 RX6 HighGain Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX6 Bypass Vcc=2.8V","BGM17LBA15 RX6 Bypass Vcc=2.8V", 0, " ", "BGM17LBA15 RX6 Bypass Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX6 Bypass Vcc=1.8V","BGM17LBA15 RX6 Bypass Vcc=1.8V", 0, " ", "BGM17LBA15 RX6 Bypass Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX7 HighGain Vcc=2.8V","BGM17LBA15 RX7 HighGain Vcc=2.8V", 0, " ", "BGM17LBA15 RX7 HighGain Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX7 HighGain Vcc=1.8V","BGM17LBA15 RX7 HighGain Vcc=1.8V", 0, " ", "BGM17LBA15 RX7 HighGain Vcc=1.8V");
+create_constant_form("BGM17LBA15 RX7 Bypass Vcc=2.8V","BGM17LBA15 RX7 Bypass Vcc=2.8V", 0, " ", "BGM17LBA15 RX7 Bypass Vcc=2.8V");
+create_constant_form("BGM17LBA15 RX7 Bypass Vcc=1.8V","BGM17LBA15 RX7 Bypass Vcc=1.8V", 0, " ", "BGM17LBA15 RX7 Bypass Vcc=1.8V");
+
+create_form_set("formset_type", "BGM17LBA15 RX1 HighGain Vcc=2.8V", "BGM17LBA15 RX1 HighGain Vcc=1.8V", "BGM17LBA15 RX1 Bypass Vcc=2.8V", "BGM17LBA15 RX1 Bypass Vcc=1.8V"
+	, "BGM17LBA15 RX2  HighGain Vcc=2.8V", "BGM17LBA15 RX2 HighGain Vcc=1.8V", "BGM17LBA15 RX2 Bypass Vcc=2.8V"
+	, "BGM17LBA15 RX2 Bypass Vcc=1.8V", "BGM17LBA15 RX3 HighGain Vcc=2.8V", "BGM17LBA15 RX3 HighGain Vcc=1.8V"
+	, "BGM17LBA15 RX3 Bypass Vcc=2.8V", "BGM17LBA15 RX3 Bypass Vcc=1.8V", "BGM17LBA15 RX4 HighGain Vcc=2.8V"
+	, "BGM17LBA15 RX4 HighGain Vcc=1.8V", "BGM17LBA15 RX4 Bypass Vcc=2.8V", "BGM17LBA15 RX4 Bypass Vcc=1.8V"
+	, "BGM17LBA15 RX5 HighGain Vcc=2.8V", "BGM17LBA15 RX5 HighGain Vcc=1.8V", "BGM17LBA15 RX5 Bypass Vcc=2.8V"
+	, "BGM17LBA15 RX5 Bypass Vcc=1.8V", "BGM17LBA15 RX6 HighGain Vcc=2.8V", "BGM17LBA15 RX6 HighGain Vcc=1.8V"
+	, "BGM17LBA15 RX6 Bypass Vcc=2.8V", "BGM17LBA15 RX6 Bypass Vcc=1.8V", "BGM17LBA15 RX7 HighGain Vcc=2.8V"
+	, "BGM17LBA15 RX7 HighGain Vcc=1.8V", "BGM17LBA15 RX7 Bypass Vcc=2.8V", "BGM17LBA15 RX7 Bypass Vcc=1.8V"
+	);
+
+
+
+/*-------modified value parameter callback function--------*/
+defun BGM17LBA15_parm_modifiedValue_cb ( cbP, parmName, itemInfoP ) 
+{ 
+  decl parmList = NULL; 
+  decl type; 
+  type = pcb_get_form_value(itemInfoP, "Type");
+ 
+ if(parmName == "Type")
+  {
+    if(type == "BGM17LBA15 RX1 HighGain Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX1_2P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX1 HighGain Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX1_1P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX1 Bypass Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX1_2P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX1 Bypass Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX1_1P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX2  HighGain Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX2_2P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX2 HighGain Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX2_1P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX2 Bypass Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX2_2P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX2 Bypass Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX2_1P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX3 HighGain Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX3_2P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX3 HighGain Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX3_1P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX3 Bypass Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX3_2P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX3 Bypass Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX3_1P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX4 HighGain Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX4_2P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX4 HighGain Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX4_1P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX4 Bypass Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX4_2P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX4 Bypass Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX4_1P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX5 HighGain Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX5_2P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX5 HighGain Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX5_1P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX5 Bypass Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX5_2P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX5 Bypass Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX5_1P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX6 HighGain Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX6_2P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX6 HighGain Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX6_1P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX6 Bypass Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX6_2P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX6 Bypass Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX6_1P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX7 HighGain Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX7_2P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX7 HighGain Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX7_1P8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX7 Bypass Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX7_2P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+    else if(type == "BGM17LBA15 RX7 Bypass Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM17LBA12_RX7_1P8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Vcc", "1.7 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "5");
+      parmList = pcb_set_string(parmList, "Gain", "12.8 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"- 6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP-15-1\"");
+      parmList = pcb_set_string(parmList, "Frequency", "703 - 690 MHz");
+    } 
+  }
+  return(parmList);
+}
+
+decl BGM17LBA15_SPCompNetlistFmt = ""; 
+decl BGM17LBA15_net=" "; 
+BGM17LBA15_net = strcat(Infineon_LNA_Switch_CIRCUIT_MODEL_DIR, "BGM17LBA15_cktName.net");
+BGM17LBA15_SPCompNetlistFmt= strcat("#include \"",BGM17LBA15_net, "\" \n%d:%t%# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p%:%k%?[%1i]%;=%p %;%;%e%e");
+
+create_item("BGM17LBA15" , 	 //Component name 
+	     "SP7T LNA Multiplexer Module with Bypass", 	 //Description 
+	     "SNP", 	 //Instance Prefix 
+	     NULL, 	 //attribute 
+	     NULL, 	 //priority 
+	     NULL, 	 //iconName 
+	     standard_dialog, 	 //dialogCode 
+	     " ", 	 //dialogData 
+	     BGM17LBA15_SPCompNetlistFmt, 	 //netlistFormat 
+	     "BGM17LBA15_cktName", 	 //netlistData 
+	     ComponentAnnotFmt, 	 //displayFormat 
+	     "symbol", 	 //symbolName 
+	     no_artwork, //artworkType
+	     NULL, 	 //artworkData 
+	     ITEM_PRIMITIVE_EX 	 //extraAttribute 
+	     ,create_parm("Type", 	 //Param name 
+		        "Component type",	 //Param Desc 
+		        PARM_NOT_NETLISTED | PARM_DISCRETE_VALUE,
+		        "formset_type", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm(type_default)		 //defaultValue 
+ 			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "Type", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+		 ,create_parm("File", 	 //Param name 
+		        "File", 	 //Param Desc 
+		        PARM_STRING | PARM_NO_DISPLAY,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm("StdForm", "\"BGM17LBA12_RX1_2P8_HG.S2P\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "File", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Temp", 	 //Param name 
+		        "Temperature", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_OPTIMIZABLE | PARM_STATISTICAL,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        TEMPERATURE_UNIT,
+		        prm("StdForm", "25")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "Temp", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Vcc", 	 //Param name 
+		        "Supply Voltage", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        VOLTAGE_UNIT,
+		        prm("StdForm", "1.7 - 3.1 V")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "Vcc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Icc", 	 //Param name 
+		        "Supply Current", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        CURRENT_UNIT,
+		        prm("StdForm", "5")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "Icc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Gain", 	 //Param name 
+		        "Power Gain", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "12.8 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "Gain", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("NF", 	 //Param name 
+		        "Noise Figure", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "1.3 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "NF", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IP1dB", 	 //Param name 
+		        "Input 1dB Compression Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-4 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "IP1dB", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IIP3", 	 //Param name 
+		        "Input 3rd Order Intercept Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"- 6 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "IIP3", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Package", 	 //Param name 
+		        "Package Information", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"ATSLP-15-1\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "Package", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Frequency", 	 //Param name 
+		        "Operating Frequency Range", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        FREQUENCY_UNIT,
+		        prm("StdForm", "703 - 690 MHz")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM17LBA15_parm_modifiedValue_cb", 	 // function name 
+						  "Frequency", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+
+	     
+);

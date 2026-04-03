@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TCCH80"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TCCH80")
+        (spec "default")
+    )
+)

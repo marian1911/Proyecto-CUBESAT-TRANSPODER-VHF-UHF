@@ -1,0 +1,16 @@
+.BGB_741L7ESD_E6327 :1 ;Infineon BGB741L7ESD BGB 741L7ESD E6327, RF Amplifier Low Noise, 21.5 dB 5 GHz, 6-Pin TSLP-7-1
+BGB741L7ESDE6327
+*STM IC
+*NGS
+*PLB 1="VCC" 2="BIASOUT" 3="RF-IN" 4="RF-OUT" 5="ON/OFF CONTROL" 6="CURRENT ADJUST" 7="GND"
+*MXP 7
+*DFN BGB_741L7ESD_E6327
+~!Mouser Part Number (726-BGB741L7ESDE63)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGB-741L7ESD-E6327?qs=nTClRYuuQBouXaJjSylDSQ%3D%3D)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (BGB 741L7ESD E6327)
+~!Link Datasheet (https://www.infineon.com/dgdl/Infineon-BGB741L7ESD-DS-v03_00-EN.pdf?fileId=5546d46265f064ff016638972c994ed7&redirId=115243)
+~!Height (0.55mm)
+~!3D_Model (BGB_741L7ESD_E6327)
+BGB_741L7ESD_E6327
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 

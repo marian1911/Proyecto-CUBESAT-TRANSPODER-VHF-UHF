@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=PGA-103+
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2020-04-21 08:22:10
+Downloaded=2025-10-24 01:34:02
+3D=Y

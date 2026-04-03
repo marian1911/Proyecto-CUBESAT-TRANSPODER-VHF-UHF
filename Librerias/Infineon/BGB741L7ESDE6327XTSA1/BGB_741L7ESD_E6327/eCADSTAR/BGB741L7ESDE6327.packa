@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BGB_741L7ESD_E6327"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-30-19:47:11)
+    (mountForm default
+        (footprintRef "BGB741L7ESDE6327")
+        (spec "System")
+    )
+)

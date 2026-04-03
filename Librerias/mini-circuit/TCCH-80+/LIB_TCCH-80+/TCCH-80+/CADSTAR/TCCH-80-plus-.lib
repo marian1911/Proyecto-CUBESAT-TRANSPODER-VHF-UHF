@@ -1,0 +1,16 @@
+.TCCH-80-plus- :1 ;RF Choke
+TCCH80
+*STM U
+*NGS
+*PLB 1="RF-IN & DC" 2="NOT USED_1" 3="DC" 4="NOT USED_2"
+*MXP 4
+*DFN TCCH-80-plus-
+~!Mouser Part Number (139-TCCH-80)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Mini-Circuits/TCCH-80%2b?qs=xZ%2FP%252Ba9zWqbIZgt27nGgHg%3D%3D)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (TCCH-80+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/TCCH-80+.pdf)
+~!Height (3.81mm)
+~!3D_Model (TCCH-80+)
+TCCH-80-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 

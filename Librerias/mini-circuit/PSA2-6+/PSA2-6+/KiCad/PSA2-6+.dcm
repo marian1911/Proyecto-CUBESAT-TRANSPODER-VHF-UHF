@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PSA2-6+
+D RF Amplifier SMT Low Noise Amplifier, DC - 7 GHz, 50?
+K
+F https://www.mouser.cn/datasheet/2/1030/PSA2_6_2b-3421589.pdf
+$ENDCMP
+#
+#End Doc Library

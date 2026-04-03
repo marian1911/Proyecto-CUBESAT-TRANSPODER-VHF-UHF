@@ -1,0 +1,257 @@
+set_simulator_type(1); 
+set_design_type(analogRFnet); 
+
+
+/*---------forms and formset------------------*/
+
+
+
+
+
+/*---------global variables------------------*/
+
+decl type_default = "BGA7H1BN6 HighGain Vcc=2.8V_f=2500 MHz"; 
+
+/*---------forms and formset------------------*/
+
+create_constant_form("BGA7H1BN6 HighGain Vcc=2.8V_f=2500 MHz","BGA7H1BN6 HighGain Vcc=2.8V_f=2500 MHz", 0, " ", "BGA7H1BN6 HighGain Vcc=2.8V_f=2500 MHz");
+create_constant_form("BGA7H1BN6 HighGain Vcc=2.8V_f=2000 MHz","BGA7H1BN6 HighGain Vcc=2.8V_f=2000 MHz", 0, " ", "BGA7H1BN6 HighGain Vcc=2.8V_f=2000 MHz");
+create_constant_form("BGA7H1BN6 Bypass Vcc=2.8V_f=2500 MHz_1","BGA7H1BN6 Bypass Vcc=2.8V_f=2500 MHz_1", 0, " ", "BGA7H1BN6 Bypass Vcc=2.8V_f=2500 MHz_1");
+create_constant_form("BGA7H1BN6 Bypass Vcc=2.8V_f=2000 MHz_2","BGA7H1BN6 Bypass Vcc=2.8V_f=2000 MHz_2", 0, " ", "BGA7H1BN6 Bypass Vcc=2.8V_f=2000 MHz_2");
+
+create_form_set("formset_type", "BGA7H1BN6 HighGain Vcc=2.8V_f=2500 MHz", "BGA7H1BN6 HighGain Vcc=2.8V_f=2000 MHz", "BGA7H1BN6 Bypass Vcc=2.8V_f=2500 MHz_1", "BGA7H1BN6 Bypass Vcc=2.8V_f=2000 MHz_2"
+	);
+
+
+
+/*-------modified value parameter callback function--------*/
+defun BGA7H1BN6_parm_modifiedValue_cb ( cbP, parmName, itemInfoP ) 
+{ 
+  decl parmList = NULL; 
+  decl type; 
+  type = pcb_get_form_value(itemInfoP, "Type");
+ 
+ if(parmName == "Type")
+  {
+    if(type == "BGA7H1BN6 HighGain Vcc=2.8V_f=2500 MHz")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA7H1BN6_2V8_HG_2500MHz.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "1805- 2690 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.5 -3.6 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.3 mA");
+      parmList = pcb_set_string(parmList, "Gain", "12.3 dB");
+      parmList = pcb_set_string(parmList, "NF", "0.85 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-3 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+2 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP -6-2\"");
+    } 
+    else if(type == "BGA7H1BN6 HighGain Vcc=2.8V_f=2000 MHz")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA7H1BN6_2V8_HG_2500MHz.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "1805- 2690 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.5 -3.6 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.3 mA");
+      parmList = pcb_set_string(parmList, "Gain", "12.3 dB");
+      parmList = pcb_set_string(parmList, "NF", "0.85 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-3 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+2 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP -6-2\"");
+    } 
+    else if(type == "BGA7H1BN6 Bypass Vcc=2.8V_f=2500 MHz_1")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA7H1BN6_2V8_BP_2500MHz.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "1805- 2690 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.5 -3.6 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.3 mA");
+      parmList = pcb_set_string(parmList, "Gain", "12.3 dB");
+      parmList = pcb_set_string(parmList, "NF", "0.85 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-3 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+2 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP -6-2\"");
+    } 
+    else if(type == "BGA7H1BN6 Bypass Vcc=2.8V_f=2000 MHz_2")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA7H1BN6_2V8_BP_2000MHz.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "1805- 2690 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.5 -3.6 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.3 mA");
+      parmList = pcb_set_string(parmList, "Gain", "12.3 dB");
+      parmList = pcb_set_string(parmList, "NF", "0.85 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-3 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+2 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP -6-2\"");
+    } 
+  }
+  return(parmList);
+}
+
+decl BGA7H1BN6_SPCompNetlistFmt = ""; 
+decl BGA7H1BN6_net=" "; 
+BGA7H1BN6_net = strcat(Infineon_LNA_Switch_CIRCUIT_MODEL_DIR, "BGA7H1BN6_cktName.net");
+BGA7H1BN6_SPCompNetlistFmt= strcat("#include \"",BGA7H1BN6_net, "\" \n%d:%t%# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p%:%k%?[%1i]%;=%p %;%;%e%e");
+
+create_item("BGA7H1BN6" , 	 //Component name 
+	     "Silicon Germanium Low Noise Amplifier for LTE", 	 //Description 
+	     "SNP", 	 //Instance Prefix 
+	     NULL, 	 //attribute 
+	     NULL, 	 //priority 
+	     NULL, 	 //iconName 
+	     standard_dialog, 	 //dialogCode 
+	     " ", 	 //dialogData 
+	     BGA7H1BN6_SPCompNetlistFmt, 	 //netlistFormat 
+	     "BGA7H1BN6_cktName", 	 //netlistData 
+	     ComponentAnnotFmt, 	 //displayFormat 
+	     "symbol", 	 //symbolName 
+	     no_artwork, //artworkType
+	     NULL, 	 //artworkData 
+	     ITEM_PRIMITIVE_EX 	 //extraAttribute 
+	     ,create_parm("Type", 	 //Param name 
+		        "Component type",	 //Param Desc 
+		        PARM_NOT_NETLISTED | PARM_DISCRETE_VALUE,
+		        "formset_type", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm(type_default)		 //defaultValue 
+ 			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Type", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+		 ,create_parm("File", 	 //Param name 
+		        "File", 	 //Param Desc 
+		        PARM_STRING | PARM_NO_DISPLAY,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm("StdForm", "\"BGA7H1BN6_2V8_HG_2500MHz.S2P\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "File", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Temp", 	 //Param name 
+		        "Temperature", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_OPTIMIZABLE | PARM_STATISTICAL,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        TEMPERATURE_UNIT,
+		        prm("StdForm", "25")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Temp", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Frequency", 	 //Param name 
+		        "Operating Frequency Range", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        FREQUENCY_UNIT,
+		        prm("StdForm", "1805- 2690 MHz")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Frequency", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Vcc", 	 //Param name 
+		        "Supply Voltage", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        VOLTAGE_UNIT,
+		        prm("StdForm", "1.5 -3.6 V")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Vcc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Icc", 	 //Param name 
+		        "Suppy Current", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        CURRENT_UNIT,
+		        prm("StdForm", "4.3 mA")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Icc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Gain", 	 //Param name 
+		        "power Gain", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "12.3 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Gain", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("NF", 	 //Param name 
+		        "Noise Figure", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "0.85 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "NF", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IP1dB", 	 //Param name 
+		        "Input 1dB Compression Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-3 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "IP1dB", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IIP3", 	 //Param name 
+		        "Input 3rd Order Intercept Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"+2 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "IIP3", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Package", 	 //Param name 
+		        "Package Information", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"TSNP -6-2\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA7H1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Package", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+
+	     
+);

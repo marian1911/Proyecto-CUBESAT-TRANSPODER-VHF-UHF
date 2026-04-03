@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PSA2_6_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "PSA2-6+" (!) = "", "SOT65P215X100-6N", "SOT23 (6-Pin)", "139-PSA2-6+", "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/PSA2-6%2b?qs=ZcfC38r4PouoCLCeNyH1xw%3D%3D", "RF Amplifier SMT Low Noise Amplifier, DC - 7 GHz, 50?", "https://www.mouser.cn/datasheet/2/1030/PSA2_6_2b-3421589.pdf", "1 mm"
+END_PART
+
+END.

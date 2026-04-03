@@ -1,0 +1,16 @@
+.ADF4350BCPZ-RL7 :1 ;Wideband Synthesizer with Integrated VCO
+QFN50P500X500X100-33N-D
+*STM IC
+*NGS
+*PLB 1="CLK" 2="DATA" 3="LE" 4="CE" 5="SW" 6="VP" 7="CPOUT" 8="CPGND" 9="AGND" 10="AVDD" 11="AGNDVCO_1" 12="RFOUTA+" 13="RFOUTA-" 14="RFOUTB+" 15="RFOUTB-" 16="VVCO_1" 17="VVCO_2" 18="AGNDVCO_2" 19="TEMP" 20="VTUNE" 21="AGNDVCO_3" 22="RSET" 23="VCOM" 24="VREF" 25="LD" 26="PDBRF" 27="DGND" 28="DVDD" 29="REFIN" 30="MUXOUT" 31="SDGND" 32="SDVDD" 33="EP"
+*MXP 33
+*DFN ADF4350BCPZ-RL7
+~!Mouser Part Number (584-ADF4350BCPZ-R7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADF4350BCPZ-RL7?qs=BpaRKvA4VqHLeFsdtKy2aw%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (ADF4350BCPZ-RL7)
+~!Link Datasheet (http://componentsearchengine.com/Datasheets/1/ADF4350BCPZ-RL7.pdf)
+~!Height (1mm)
+~!3D_Model (ADF4350BCPZ-RL7)
+ADF4350BCPZ-RL7
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

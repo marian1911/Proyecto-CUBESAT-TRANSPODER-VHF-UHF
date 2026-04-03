@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADF4117BRUZ-RL7
+D Single, Integer-N 1.2 GHz PLL
+K
+F https://www.analog.com/ADF4117/datasheet
+$ENDCMP
+#
+#End Doc Library

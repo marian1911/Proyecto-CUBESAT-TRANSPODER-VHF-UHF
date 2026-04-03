@@ -1,0 +1,271 @@
+set_simulator_type(1); 
+set_design_type(analogRFnet); 
+
+
+/*---------forms and formset------------------*/
+
+
+
+
+
+/*---------global variables------------------*/
+
+decl type_default = "BGM15LA12 RX1 AO Vcc=2.8V"; 
+
+/*---------forms and formset------------------*/
+
+create_constant_form("BGM15LA12 RX1 AO Vcc=2.8V","BGM15LA12 RX1 AO Vcc=2.8V", 0, " ", "BGM15LA12 RX1 AO Vcc=2.8V");
+create_constant_form("BGM15LA12 RX2 AO Vcc=2.8V","BGM15LA12 RX2 AO Vcc=2.8V", 0, " ", "BGM15LA12 RX2 AO Vcc=2.8V");
+create_constant_form("BGM15LA12 RX3 AO Vcc=2.8V","BGM15LA12 RX3 AO Vcc=2.8V", 0, " ", "BGM15LA12 RX3 AO Vcc=2.8V");
+create_constant_form("BGM15LA12 RX4 AO Vcc=2.8V","BGM15LA12 RX4 AO Vcc=2.8V", 0, " ", "BGM15LA12 RX4 AO Vcc=2.8V");
+create_constant_form("BGM15LA12 RX5 AO Vcc=2.8V","BGM15LA12 RX5 AO Vcc=2.8V", 0, " ", "BGM15LA12 RX5 AO Vcc=2.8V");
+
+create_form_set("formset_type", "BGM15LA12 RX1 AO Vcc=2.8V", "BGM15LA12 RX2 AO Vcc=2.8V", "BGM15LA12 RX3 AO Vcc=2.8V", "BGM15LA12 RX4 AO Vcc=2.8V"
+	, "BGM15LA12 RX5 AO Vcc=2.8V");
+
+
+
+/*-------modified value parameter callback function--------*/
+defun BGM15LA12_parm_modifiedValue_cb ( cbP, parmName, itemInfoP ) 
+{ 
+  decl parmList = NULL; 
+  decl type; 
+  type = pcb_get_form_value(itemInfoP, "Type");
+ 
+ if(parmName == "Type")
+  {
+    if(type == "BGM15LA12 RX1 AO Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM15LA12_RX1_AO_2p8V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "728 - 960 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.2 - 3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.8 mA");
+      parmList = pcb_set_string(parmList, "Gain", "15 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-2.5 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP - 12 -1\"");
+    } 
+    else if(type == "BGM15LA12 RX2 AO Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM15LA12_RX2_AO_2p8V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "728 - 960 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.2 - 3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.8 mA");
+      parmList = pcb_set_string(parmList, "Gain", "15 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-2.5 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP - 12 -1\"");
+    } 
+    else if(type == "BGM15LA12 RX3 AO Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM15LA12_RX3_AO_2p8V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "728 - 960 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.2 - 3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.8 mA");
+      parmList = pcb_set_string(parmList, "Gain", "15 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-2.5 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP - 12 -1\"");
+    } 
+    else if(type == "BGM15LA12 RX4 AO Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM15LA12_RX4_AO_2p8V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "728 - 960 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.2 - 3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.8 mA");
+      parmList = pcb_set_string(parmList, "Gain", "15 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-2.5 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP - 12 -1\"");
+    } 
+    else if(type == "BGM15LA12 RX5 AO Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGM15LA12_RX5_AO_2p8V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "728 - 960 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.2 - 3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.8 mA");
+      parmList = pcb_set_string(parmList, "Gain", "15 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-2.5 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"ATSLP - 12 -1\"");
+    } 
+  }
+  return(parmList);
+}
+
+decl BGM15LA12_SPCompNetlistFmt = ""; 
+decl BGM15LA12_net=" "; 
+BGM15LA12_net = strcat(Infineon_LNA_Switch_CIRCUIT_MODEL_DIR, "BGM15LA12_cktName.net");
+BGM15LA12_SPCompNetlistFmt= strcat("#include \"",BGM15LA12_net, "\" \n%d:%t%# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p%:%k%?[%1i]%;=%p %;%;%e%e");
+
+create_item("BGM15LA12" , 	 //Component name 
+	     "4G/LTE-A; Low Band", 	 //Description 
+	     "SNP", 	 //Instance Prefix 
+	     NULL, 	 //attribute 
+	     NULL, 	 //priority 
+	     NULL, 	 //iconName 
+	     standard_dialog, 	 //dialogCode 
+	     " ", 	 //dialogData 
+	     BGM15LA12_SPCompNetlistFmt, 	 //netlistFormat 
+	     "BGM15LA12_cktName", 	 //netlistData 
+	     ComponentAnnotFmt, 	 //displayFormat 
+	     "symbol", 	 //symbolName 
+	     no_artwork, //artworkType
+	     NULL, 	 //artworkData 
+	     ITEM_PRIMITIVE_EX 	 //extraAttribute 
+	     ,create_parm("Type", 	 //Param name 
+		        "Component type",	 //Param Desc 
+		        PARM_NOT_NETLISTED | PARM_DISCRETE_VALUE,
+		        "formset_type", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm(type_default)		 //defaultValue 
+ 			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "Type", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+		 ,create_parm("File", 	 //Param name 
+		        "File", 	 //Param Desc 
+		        PARM_STRING | PARM_NO_DISPLAY,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm("StdForm", "\"BGM15LA12_RX1_AO_2p8V.S2P\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "File", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Temp", 	 //Param name 
+		        "Temperature", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_OPTIMIZABLE | PARM_STATISTICAL,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        TEMPERATURE_UNIT,
+		        prm("StdForm", "25")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "Temp", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Frequency", 	 //Param name 
+		        "Operating Frequency Range", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        FREQUENCY_UNIT,
+		        prm("StdForm", "728 - 960 MHz")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "Frequency", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Vcc", 	 //Param name 
+		        "Supply Voltage", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        VOLTAGE_UNIT,
+		        prm("StdForm", "2.2 - 3.3 V")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "Vcc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Icc", 	 //Param name 
+		        "Supply Current", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        CURRENT_UNIT,
+		        prm("StdForm", "4.8 mA")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "Icc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Gain", 	 //Param name 
+		        "Power Gain", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "15 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "Gain", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("NF", 	 //Param name 
+		        "Noise Figure", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "1.1 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "NF", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IP1dB", 	 //Param name 
+		        "Input 1dB Compression Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-2.5 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "IP1dB", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IIP3", 	 //Param name 
+		        "Input 3rd Order Intercept Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"+6 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "IIP3", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Package", 	 //Param name 
+		        "Package Information", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"ATSLP - 12 -1\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGM15LA12_parm_modifiedValue_cb", 	 // function name 
+						  "Package", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+
+	     
+);

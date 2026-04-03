@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TCCH-80+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-13-13:01:39)
+    (mountForm default
+        (footprintRef "TCCH80")
+        (spec "System")
+    )
+)

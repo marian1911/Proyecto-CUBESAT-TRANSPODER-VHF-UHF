@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=PSA2-6+
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2024-08-26 03:22:47
+Downloaded=2025-11-18 14:30:17
+3D=Y

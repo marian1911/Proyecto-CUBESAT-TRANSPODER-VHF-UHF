@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PSA2-6+"
+   (description "RF Amplifier SMT Low Noise Amplifier, DC - 7 GHz, 50?")
+   (family "ANA")
+   (package "SOT65P215X100-6N")
+   (attribute "Datasheet Link" "https://www.mouser.cn/datasheet/2/1030/PSA2_6_2b-3421589.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "139-PSA2-6+")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/PSA2-6%2b?qs=ZcfC38r4PouoCLCeNyH1xw%3D%3D")
+   (attribute "Manufacturer_Name" "Mini-Circuits")
+   (attribute "Manufacturer_Part_Number" "PSA2-6+")
+   (gate
+    (symbol "PSA2-6+")
+    (pin "RF-IN" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "GND_2" 3 PS)
+    (pin "GND_4" 6 PS)
+    (pin "GND_3" 5 PS)
+    (pin "RF-OUT_&_VD" 4 PS)
+   )
+  )
+  (symbol "PSA2-6+"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT65P215X100-6N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.75 1.375)
+      (pt 1.75 1.375)
+      (pt 1.75 -1.375)
+      (pt -1.75 -1.375)
+      (pt -1.75 1.375))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.625 1.025)
+      (pt 0.625 1.025)
+      (pt 0.625 -1.025)
+      (pt -0.625 -1.025)
+      (pt -0.625 1.025))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.625 0.375)
+      (pt 0.025 1.025))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.15 1.025)
+      (pt 0.15 1.025)
+      (pt 0.15 -1.025)
+      (pt -0.15 -1.025)
+      (pt -0.15 1.025))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.5 1.2)
+      (pt -0.5 1.2))))
+   (leg 1 (pt -1 0.65) (padstack 0))
+   (leg 2 (pt -1 0) (padstack 0))
+   (leg 3 (pt -1 -0.65) (padstack 0))
+   (leg 4 (pt 1 -0.65) (padstack 0))
+   (leg 5 (pt 1 0) (padstack 0))
+   (leg 6 (pt 1 0.65) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.4 1 0 0 0))
+   )
+   (model "PSA2-6+.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

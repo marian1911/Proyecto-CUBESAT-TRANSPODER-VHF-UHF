@@ -1,0 +1,11 @@
+decl Infineon_LNA_Switch_PATH = designKitRecord[1];
+decl Infineon_LNA_Switch_BITMAP_DIR = sprintf("%s/circuit/bitmaps/",Infineon_LNA_Switch_PATH);
+decl Infineon_LNA_Switch_CIRCUIT_ARTWORK_DIR  = sprintf("%s/circuit/artwork/",Infineon_LNA_Switch_PATH);
+decl Infineon_LNA_Switch_CIRCUIT_MODEL_DIR = sprintf("%s/circuit/models/",Infineon_LNA_Switch_PATH);
+decl Infineon_LNA_Switch_CIRCUIT_DATA_DIR = sprintf("%s/circuit/data/",Infineon_LNA_Switch_PATH);
+decl Infineon_LNA_Switch_DE_AEL_DIR = sprintf("%s/de/ael/",Infineon_LNA_Switch_PATH);
+
+//load artwork macro AEL files 
+
+//load palette.ael 
+load(strcat(Infineon_LNA_Switch_DE_AEL_DIR,"palette"));

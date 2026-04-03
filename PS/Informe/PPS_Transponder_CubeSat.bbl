@@ -1,0 +1,571 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{CalPoly2023}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ac1879889a3773b7b3de7d6d854aca83}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={California\bibnamedelimb Polytechnic\bibnamedelima State},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac1879889a3773b7b3de7d6d854aca83}
+      \strng{fullhash}{ac1879889a3773b7b3de7d6d854aca83}
+      \strng{bibnamehash}{ac1879889a3773b7b3de7d6d854aca83}
+      \strng{authorbibnamehash}{ac1879889a3773b7b3de7d6d854aca83}
+      \strng{authornamehash}{ac1879889a3773b7b3de7d6d854aca83}
+      \strng{authorfullhash}{ac1879889a3773b7b3de7d6d854aca83}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cal Poly’s Game-Changing CubeSats Inducted into the Space Technology Hall of Fame}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.calpoly.edu/news/cal-polys-game-changing-cubesats-inducted-space-technology-hall-fame
+      \endverb
+      \verb{url}
+      \verb https://www.calpoly.edu/news/cal-polys-game-changing-cubesats-inducted-space-technology-hall-fame
+      \endverb
+    \endentry
+    \entry{CDS2022}{report}{}
+      \name{author}{1}{}{%
+        {{hash=c73e970df54048f254f808473c3178ec}{%
+           family={{Cal Poly SLO, The CubeSat Program}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {California Polytechnic State University, San Luis Obispo}%
+      }
+      \strng{namehash}{c73e970df54048f254f808473c3178ec}
+      \strng{fullhash}{c73e970df54048f254f808473c3178ec}
+      \strng{bibnamehash}{c73e970df54048f254f808473c3178ec}
+      \strng{authorbibnamehash}{c73e970df54048f254f808473c3178ec}
+      \strng{authornamehash}{c73e970df54048f254f808473c3178ec}
+      \strng{authorfullhash}{c73e970df54048f254f808473c3178ec}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Accessed: 2025-08-28}
+      \field{title}{CubeSat Design Specification Rev. 14.1}
+      \field{type}{techreport}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.cubesat.org/s/CDS-REV14_1-2022-02-09.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cubesat.org/s/CDS-REV14_1-2022-02-09.pdf
+      \endverb
+    \endentry
+    \entry{AFSPCMAN91710}{manual}{}
+      \list{organization}{1}{%
+        {United States Space Force – Vandenberg Space Force Base}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{note}{SEAL-SSD-001}
+      \field{title}{AFSPCMAN 91-710 Implementation Guide}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.vandenberg.spaceforce.mil/Portals/18/documents/Safety/SEAL-SSD-001%20-%20%20AFSPCMAN%2091-710%20Implementation%20Guide.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.vandenberg.spaceforce.mil/Portals/18/documents/Safety/SEAL-SSD-001%20-%20%20AFSPCMAN%2091-710%20Implementation%20Guide.pdf
+      \endverb
+    \endentry
+    \entry{FAA2025Lithium}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6baf5d924bfc839b6056cf14b7299f2f}{%
+           family={{Federal Aviation Administration}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{fullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{bibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorbibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authornamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorfullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Última actualización: 21 de febrero de 2025}
+      \field{title}{PackSafe – Lithium Batteries}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.faa.gov/hazmat/packsafe/lithium-batteries
+      \endverb
+      \verb{url}
+      \verb https://www.faa.gov/hazmat/packsafe/lithium-batteries
+      \endverb
+    \endentry
+    \entry{NASA2025OutgassingDB}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c9b7f16746f28a4b6be6b9ea6ca4d171}{%
+           family={{NASA Goddard Engineering \& Technology Directorate}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9b7f16746f28a4b6be6b9ea6ca4d171}
+      \strng{fullhash}{c9b7f16746f28a4b6be6b9ea6ca4d171}
+      \strng{bibnamehash}{c9b7f16746f28a4b6be6b9ea6ca4d171}
+      \strng{authorbibnamehash}{c9b7f16746f28a4b6be6b9ea6ca4d171}
+      \strng{authornamehash}{c9b7f16746f28a4b6be6b9ea6ca4d171}
+      \strng{authorfullhash}{c9b7f16746f28a4b6be6b9ea6ca4d171}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página actualizada por última vez el 11 de julio de 2025}
+      \field{title}{Outgassing Database}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://etd.gsfc.nasa.gov/capabilities/outgassing-database/
+      \endverb
+      \verb{url}
+      \verb https://etd.gsfc.nasa.gov/capabilities/outgassing-database/
+      \endverb
+    \endentry
+    \entry{CDSDrawings2022}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c73e970df54048f254f808473c3178ec}{%
+           family={{Cal Poly SLO, The CubeSat Program}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c73e970df54048f254f808473c3178ec}
+      \strng{fullhash}{c73e970df54048f254f808473c3178ec}
+      \strng{bibnamehash}{c73e970df54048f254f808473c3178ec}
+      \strng{authorbibnamehash}{c73e970df54048f254f808473c3178ec}
+      \strng{authornamehash}{c73e970df54048f254f808473c3178ec}
+      \strng{authorfullhash}{c73e970df54048f254f808473c3178ec}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Apéndice B – dibujos dimensionales y de ensamblaje}
+      \field{title}{CubeSat Design Specification Rev. 14.1 – Drawings}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://static1.squarespace.com/static/5418c831e4b0fa4ecac1bacd/t/621941d8e53eb916a609611d/1645822427304/CDS+Rev14_1+Drawings.pdf
+      \endverb
+      \verb{url}
+      \verb https://static1.squarespace.com/static/5418c831e4b0fa4ecac1bacd/t/621941d8e53eb916a609611d/1645822427304/CDS+Rev14_1+Drawings.pdf
+      \endverb
+    \endentry
+    \entry{CIFP2020}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b9f39dae120fc4b4f729ec7841b0f9d3}{%
+           family={{Cal Poly CubeSat Laboratory}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9f39dae120fc4b4f729ec7841b0f9d3}
+      \strng{fullhash}{b9f39dae120fc4b4f729ec7841b0f9d3}
+      \strng{bibnamehash}{b9f39dae120fc4b4f729ec7841b0f9d3}
+      \strng{authorbibnamehash}{b9f39dae120fc4b4f729ec7841b0f9d3}
+      \strng{authornamehash}{b9f39dae120fc4b4f729ec7841b0f9d3}
+      \strng{authorfullhash}{b9f39dae120fc4b4f729ec7841b0f9d3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{Procedimiento público de inspección y prueba de ajuste para CubeSats}
+      \field{title}{CubeSat Inspection and Fit-Check Procedure (CIFP), Version 2.0W}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://static1.squarespace.com/static/5418c831e4b0fa4ecac1bacd/t/61427114e437672c6d7ae677/1631744277134/CP-CIFP-2.0W+%28Public+Version%29.pdf
+      \endverb
+      \verb{url}
+      \verb https://static1.squarespace.com/static/5418c831e4b0fa4ecac1bacd/t/61427114e437672c6d7ae677/1631744277134/CP-CIFP-2.0W+%28Public+Version%29.pdf
+      \endverb
+    \endentry
+    \entry{IARU2025}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2fd214cb76475cb10e8368f2bf79f079}{%
+           family={{International Amateur Radio Union (IARU)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fd214cb76475cb10e8368f2bf79f079}
+      \strng{fullhash}{2fd214cb76475cb10e8368f2bf79f079}
+      \strng{bibnamehash}{2fd214cb76475cb10e8368f2bf79f079}
+      \strng{authorbibnamehash}{2fd214cb76475cb10e8368f2bf79f079}
+      \strng{authornamehash}{2fd214cb76475cb10e8368f2bf79f079}
+      \strng{authorfullhash}{2fd214cb76475cb10e8368f2bf79f079}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Sitio oficial — coordinación de bandas y recomendaciones para estaciones de radioaficionados}
+      \field{title}{International Amateur Radio Union}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iaru.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iaru.org/
+      \endverb
+    \endentry
+    \entry{ITU2025}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7ddfb261130d2af8916054bd686f0614}{%
+           family={{International Telecommunication Union}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ddfb261130d2af8916054bd686f0614}
+      \strng{fullhash}{7ddfb261130d2af8916054bd686f0614}
+      \strng{bibnamehash}{7ddfb261130d2af8916054bd686f0614}
+      \strng{authorbibnamehash}{7ddfb261130d2af8916054bd686f0614}
+      \strng{authornamehash}{7ddfb261130d2af8916054bd686f0614}
+      \strng{authorfullhash}{7ddfb261130d2af8916054bd686f0614}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página oficial de la UIT: normas de radiocomunicación, desarrollo de estándares y coordinación global del espectro radioeléctrico}
+      \field{title}{ITU – Connecting the world and beyond}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.itu.int/
+      \endverb
+      \verb{url}
+      \verb https://www.itu.int/
+      \endverb
+    \endentry
+    \entry{NASA87156E}{report}{}
+      \name{author}{1}{}{%
+        {{hash=95b1c4a3252d71aab3fa3ca37bc052de}{%
+           family={{NASA Office of Safety and Mission Assurance}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {NASA}%
+      }
+      \strng{namehash}{95b1c4a3252d71aab3fa3ca37bc052de}
+      \strng{fullhash}{95b1c4a3252d71aab3fa3ca37bc052de}
+      \strng{bibnamehash}{95b1c4a3252d71aab3fa3ca37bc052de}
+      \strng{authorbibnamehash}{95b1c4a3252d71aab3fa3ca37bc052de}
+      \strng{authornamehash}{95b1c4a3252d71aab3fa3ca37bc052de}
+      \strng{authorfullhash}{95b1c4a3252d71aab3fa3ca37bc052de}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{note}{Requisitos procedimentales para la mitigación de escombros orbitales; documento obligatorio para empleados de NASA}
+      \field{title}{NPR 8715.6E – Orbital Debris Mitigation}
+      \field{type}{techreport}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=8715&s=6E
+      \endverb
+      \verb{url}
+      \verb https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=8715&s=6E
+      \endverb
+    \endentry
+    \entry{NASA_ODPO_Mitigation2025}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bc6a619db3cf29cddef3afb0161c90b2}{%
+           family={{NASA Orbital Debris Program Office}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc6a619db3cf29cddef3afb0161c90b2}
+      \strng{fullhash}{bc6a619db3cf29cddef3afb0161c90b2}
+      \strng{bibnamehash}{bc6a619db3cf29cddef3afb0161c90b2}
+      \strng{authorbibnamehash}{bc6a619db3cf29cddef3afb0161c90b2}
+      \strng{authornamehash}{bc6a619db3cf29cddef3afb0161c90b2}
+      \strng{authorfullhash}{bc6a619db3cf29cddef3afb0161c90b2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Medidas para limitar la generación de desechos orbitales y prácticas operativas recomendadas}
+      \field{title}{Debris Mitigation}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://orbitaldebris.jsc.nasa.gov/Mitigation/
+      \endverb
+      \verb{url}
+      \verb https://orbitaldebris.jsc.nasa.gov/Mitigation/
+      \endverb
+    \endentry
+    \entry{ESA_SDUP2025}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5d6946da85f413c5eabeefc0c61be9e8}{%
+           family={{ESA Space Debris Office}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d6946da85f413c5eabeefc0c61be9e8}
+      \strng{fullhash}{5d6946da85f413c5eabeefc0c61be9e8}
+      \strng{bibnamehash}{5d6946da85f413c5eabeefc0c61be9e8}
+      \strng{authorbibnamehash}{5d6946da85f413c5eabeefc0c61be9e8}
+      \strng{authornamehash}{5d6946da85f413c5eabeefc0c61be9e8}
+      \strng{authorfullhash}{5d6946da85f413c5eabeefc0c61be9e8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Portal de usuario para herramientas de análisis de desechos espaciales como MASTER, DRAMA y demás}
+      \field{title}{Space Debris User Portal (SDUP)}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sdup.esoc.esa.int/
+      \endverb
+      \verb{url}
+      \verb https://sdup.esoc.esa.int/
+      \endverb
+    \endentry
+    \entry{GSFC7000A2013}{report}{}
+      \name{author}{1}{}{%
+        {{hash=bd43185af9f6cf83bb372c743c43ea36}{%
+           family={{NASA Goddard Space Flight Center}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {NASA Goddard Space Flight Center}%
+      }
+      \strng{namehash}{bd43185af9f6cf83bb372c743c43ea36}
+      \strng{fullhash}{bd43185af9f6cf83bb372c743c43ea36}
+      \strng{bibnamehash}{bd43185af9f6cf83bb372c743c43ea36}
+      \strng{authorbibnamehash}{bd43185af9f6cf83bb372c743c43ea36}
+      \strng{authornamehash}{bd43185af9f6cf83bb372c743c43ea36}
+      \strng{authorfullhash}{bd43185af9f6cf83bb372c743c43ea36}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{note}{Revalidation date: April 22, 2019; estándar para verificación ambiental general}
+      \field{title}{General Environmental Verification Standard (GEVS), GSFC-STD-7000A}
+      \field{type}{techreport}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://explorers.larc.nasa.gov/2019APSMEX/MO/pdf_files/gsfc-std-7000a_final_3-28-18.pdf
+      \endverb
+      \verb{url}
+      \verb https://explorers.larc.nasa.gov/2019APSMEX/MO/pdf_files/gsfc-std-7000a_final_3-28-18.pdf
+      \endverb
+    \endentry
+    \entry{SMCS016_2014}{report}{}
+      \name{author}{1}{}{%
+        {{hash=1922d788936ea7655aa2715dd68e72e0}{%
+           family={{United States Space Force, Space Systems Acquisition Directorate}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {US Space Force}%
+      }
+      \strng{namehash}{1922d788936ea7655aa2715dd68e72e0}
+      \strng{fullhash}{1922d788936ea7655aa2715dd68e72e0}
+      \strng{bibnamehash}{1922d788936ea7655aa2715dd68e72e0}
+      \strng{authorbibnamehash}{1922d788936ea7655aa2715dd68e72e0}
+      \strng{authornamehash}{1922d788936ea7655aa2715dd68e72e0}
+      \strng{authorfullhash}{1922d788936ea7655aa2715dd68e72e0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{note}{Documento que define criterios ambientales para cargas útiles espaciales}
+      \field{title}{SMC-S-016: Payload Environmental Data for Spaceflight}
+      \field{type}{techreport}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://explorers.larc.nasa.gov/2019APSMEX/MO/pdf_files/SMC-S-016_05SEP2014.pdf
+      \endverb
+      \verb{url}
+      \verb https://explorers.larc.nasa.gov/2019APSMEX/MO/pdf_files/SMC-S-016_05SEP2014.pdf
+      \endverb
+    \endentry
+    \entry{pc104:spec2008_report}{report}{}
+      \name{author}{1}{}{%
+        {{hash=5af7bbae86dfa419c8f8495ccda999f2}{%
+           family={{PC/104 Embedded Consortium}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PC/104 Embedded Consortium}%
+      }
+      \strng{namehash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{fullhash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{bibnamehash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{authorbibnamehash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{authornamehash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{authorfullhash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Available at \url{https://pc104.org/wp-content/uploads/2015/02/PC104_Spec_v2_6.pdf}}
+      \field{number}{2.6}
+      \field{title}{{PC/104 Specification}}
+      \field{type}{Specification}
+      \field{year}{2008}
+    \endentry
+    \entry{Solari1992ISAandEISA}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f810f07261a930569920e7d0ce689d13}{%
+           family={Solari},
+           familyi={S\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annabooks}%
+      }
+      \strng{namehash}{f810f07261a930569920e7d0ce689d13}
+      \strng{fullhash}{f810f07261a930569920e7d0ce689d13}
+      \strng{bibnamehash}{f810f07261a930569920e7d0ce689d13}
+      \strng{authorbibnamehash}{f810f07261a930569920e7d0ce689d13}
+      \strng{authornamehash}{f810f07261a930569920e7d0ce689d13}
+      \strng{authorfullhash}{f810f07261a930569920e7d0ce689d13}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Libro técnico que aborda los buses ISA y EISA — teoría, operación, ciclos de bus, tablas temporales y especificaciones}
+      \field{title}{ISA and EISA: Theory and Operation}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{1992}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://vintage-computer-books.netlify.app/ISA%20and%20EISA%20-%20Theory%20and%20Operation.pdf
+      \endverb
+      \verb{url}
+      \verb https://vintage-computer-books.netlify.app/ISA%20and%20EISA%20-%20Theory%20and%20Operation.pdf
+      \endverb
+    \endentry
+    \entry{pc104plus:spec2008_report}{report}{}
+      \name{author}{1}{}{%
+        {{hash=5af7bbae86dfa419c8f8495ccda999f2}{%
+           family={{PC/104 Embedded Consortium}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PC/104 Embedded Consortium}%
+      }
+      \strng{namehash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{fullhash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{bibnamehash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{authorbibnamehash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{authornamehash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \strng{authorfullhash}{5af7bbae86dfa419c8f8495ccda999f2}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Available at \url{https://pc104.org/wp-content/uploads/2015/02/PC104-Plus_Spec_v2_1.pdf}}
+      \field{number}{2.1}
+      \field{title}{{PC/104-Plus Specification}}
+      \field{type}{Specification}
+      \field{year}{2008}
+    \endentry
+    \entry{pci:spec1998_report}{report}{}
+      \name{author}{1}{}{%
+        {{hash=a1dae2c69d4deac7de64a6ed5baf0ecb}{%
+           family={{PCI Special Interest Group}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PCI Special Interest Group}%
+      }
+      \strng{namehash}{a1dae2c69d4deac7de64a6ed5baf0ecb}
+      \strng{fullhash}{a1dae2c69d4deac7de64a6ed5baf0ecb}
+      \strng{bibnamehash}{a1dae2c69d4deac7de64a6ed5baf0ecb}
+      \strng{authorbibnamehash}{a1dae2c69d4deac7de64a6ed5baf0ecb}
+      \strng{authornamehash}{a1dae2c69d4deac7de64a6ed5baf0ecb}
+      \strng{authorfullhash}{a1dae2c69d4deac7de64a6ed5baf0ecb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Available at \url{https://ics.uci.edu/~iharris/ics216/pci/PCI_22.pdf}}
+      \field{number}{2.2}
+      \field{title}{{PCI Local Bus Specification, Revision 2.2}}
+      \field{type}{Specification}
+      \field{year}{1998}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

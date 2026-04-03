@@ -1,0 +1,18 @@
+.CVCO55BE-0400-0800 :1 ;VCO Oscillators 400MHz-800MHz
+CVCO55BE04000800
+*STM Y
+*NGS
+*PLB 1="GROUND_1" 2="VT" 3="GROUND_2" 4="GROUND_3" 5="GROUND_4" 6="GROUND_5" 7="GROUND_6" 8="GROUND_7" 9="GROUND_8" 10="RF-OUTPUT" 11="GROUND_9" 12="GROUND_10" 13="GROUND_11" 14="VCC" 15="GROUND_12" 16="GROUND_13"
+*MXP 16
+*DFN CVCO55BE-0400-0800
+~!Manufacturer_Name (Crystek)
+~!Manufacturer_Part_Number (CVCO55BE-0400-0800)
+~!Mouser Part Number (549-CV55BE0400-0800)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Crystek-Corporation/CVCO55BE-0400-0800?qs=O9nmv0aA33UiGXPclCNPWQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.crystek.com/microwave/admin/webapps/welcome/files/vco/CVCO55BE-0400-0800.pdf)
+~!Height (3.81mm)
+~!3D_Model (CVCO55BE-0400-0800)
+CVCO55BE-0400-0800
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Torex
+PartNumber=XC6206P302MR-G
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2020-01-29 12:37:04
+Downloaded=2026-03-11 22:33:52
+3D=Y

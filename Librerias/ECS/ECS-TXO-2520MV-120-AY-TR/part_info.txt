@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-TXO-2520MV-120-AY-TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2021-06-22 08:56:04
+Downloaded=2026-03-21 20:32:20
+3D=Y

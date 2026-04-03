@@ -1,0 +1,128 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BGB_741L7ESD_E6327"
+   (description "Infineon BGB741L7ESD BGB 741L7ESD E6327, RF Amplifier Low Noise, 21.5 dB 5 GHz, 6-Pin TSLP-7-1")
+   (family "ANA")
+   (package "BGB741L7ESDE6327")
+   (attribute "Datasheet Link" "https://www.infineon.com/dgdl/Infineon-BGB741L7ESD-DS-v03_00-EN.pdf?fileId=5546d46265f064ff016638972c994ed7&redirId=115243")
+   (attribute "Geometry.Height" "0.55mm")
+   (attribute "Mouser Part Number" "726-BGB741L7ESDE63")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGB-741L7ESD-E6327?qs=nTClRYuuQBouXaJjSylDSQ%3D%3D")
+   (attribute "Manufacturer_Name" "Infineon")
+   (attribute "Manufacturer_Part_Number" "BGB 741L7ESD E6327")
+   (gate
+    (symbol "BGB_741L7ESD_E6327")
+    (pin "VCC" 1 PS)
+    (pin "BIASOUT" 2 PS)
+    (pin "RF-IN" 3 PS)
+    (pin "RF-OUT" 4 PS)
+    (pin "ON/OFF_CONTROL" 5 PS)
+    (pin "CURRENT_ADJUST" 6 PS)
+    (pin "GND" 7 PS)
+   )
+  )
+  (symbol "BGB_741L7ESD_E6327"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1600 100) (pt 1600 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BGB741L7ESDE6327"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0.65 1)
+      (pt -0.65 1)
+      (pt -0.65 -1)
+      (pt 0.65 -1)
+      (pt 0.65 1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.7 2.45)
+      (pt -1.65 2.45)
+      (pt -1.65 -2)
+      (pt 1.7 -2)
+      (pt 1.7 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.6 1.4)
+      (arc (pt 0.600 1.400) (pt 0.700 1.350) (pt 0.600 1.450) (start 180.0) (sweep 180.0))
+      (pt 0.7 1.4)
+      (arc (pt 0.700 1.400) (pt 0.700 1.350) (pt 0.600 1.450) (start 180.0) (sweep .0))
+      (pt 0.6 1.4))))
+   (leg 1 (pt 0.500 0.850) (padstack 0))
+   (leg 2 (pt 0.000 0.850) (padstack 0))
+   (leg 3 (pt -0.500 0.850) (padstack 0))
+   (leg 4 (pt -0.500 -0.850) (padstack 0))
+   (leg 5 (pt 0.000 -0.850) (padstack 0))
+   (leg 6 (pt 0.500 -0.850) (padstack 0))
+   (leg 7 (pt 0.000 0.000) (padstack 7))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.250 0 0 90.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 1.100 1.200 0 0 180.000))
+   )
+   (model "BGB_741L7ESD_E6327.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

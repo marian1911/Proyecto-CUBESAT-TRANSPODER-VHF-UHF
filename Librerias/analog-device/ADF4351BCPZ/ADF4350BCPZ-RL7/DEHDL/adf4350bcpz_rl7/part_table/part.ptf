@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADF4350BCPZ_RL7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "ADF4350BCPZ-RL7" (!) = "", "QFN50P500X500X100-33N-D", "Quad Flat No-Lead", "584-ADF4350BCPZ-R7", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADF4350BCPZ-RL7?qs=BpaRKvA4VqHLeFsdtKy2aw%3D%3D", "Wideband Synthesizer with Integrated VCO", "http://componentsearchengine.com/Datasheets/1/ADF4350BCPZ-RL7.pdf", "1 mm"
+END_PART
+
+END.

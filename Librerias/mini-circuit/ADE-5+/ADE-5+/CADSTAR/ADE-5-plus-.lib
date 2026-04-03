@@ -1,0 +1,16 @@
+.ADE-5-plus- :1 ;RF Mixer DBL BAL MIX / SURF MT /   RoHS
+ADE5
+*STM IC
+*NGS
+*PLB 1="GROUND_1" 2="IF" 3="RF" 4="GROUND_2" 5="GROUND_3" 6="LO"
+*MXP 6
+*DFN ADE-5-plus-
+~!Mouser Part Number (139-ADE-5)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Mini-Circuits/ADE-5%2b?qs=xZ%2FP%252Ba9zWqYmwk%2F%2Fds48gw%3D%3D)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (ADE-5+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/ADE-5+.pdf)
+~!Height (2.84mm)
+~!3D_Model (ADE-5+)
+ADE-5-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_769575"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-29-12:37:04)
+    (utime 2025-09-29-16:52:40)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "XC6206P302MR-G")
+)
+
+
+(pinAssign "ECS_769575"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-29-12:37:04)
+    (utime 2025-09-29-16:52:40)
+    (interface
+        (port "1" (symbPinId 1) (portName "VSS") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "VOUT") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "VIN") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_769575")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "XC6206P302MR-G")
+)
+
+
+(part "XC6206P302MR-G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-29-12:37:04)
+    (utime 2025-09-29-16:52:40)
+    (packageRef "XC6206P302MR-G")
+    (pinAssignRef "ECS_769575")
+    (interface
+        (port "1" (symbPinId 1) (portName "VSS") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "VOUT") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "VIN") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "1UA LOW QUIESCENT 3 TERMINAL, LO")
+    (property "Mouser_Part_Number" "865-XC6206P302MR-G")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6206P302MR-G?qs=AsjdqWjXhJ%2FCPGHa4B8pZA%3D%3D")
+    (property "Manufacturer_Name" "Torex")
+    (property "Manufacturer_Part_Number" "XC6206P302MR-G")
+    (property "Datasheet_Link" "https://www.torexsemi.com/file/xc6206/XC6206.pdf")
+    (property "compAreaTopHeight" 1.3)
+)
+
+

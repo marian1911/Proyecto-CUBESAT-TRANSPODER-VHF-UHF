@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP150AUJZ-2.65-R7
+D Ultralow Noise, 150 mA CMOS Linear Regulator
+K
+F https://www.analog.com/ADP150/datasheet
+$ENDCMP
+#
+#End Doc Library

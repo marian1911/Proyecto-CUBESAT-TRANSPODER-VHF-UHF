@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PGA_103_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "PGA-103+" (!) = "", "GVA63", "Other", "139-PGA-103", "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/PGA-103%2b?qs=xZ%2FP%252Ba9zWqZWniifnGTm5A%3D%3D", "RF Amplifier SMT Low Noise Amplifier, 50Ohm - 4000 MHz, 50", "https://www.minicircuits.com/pdfs/PGA-103+.pdf", "1 mm"
+END_PART
+
+END.

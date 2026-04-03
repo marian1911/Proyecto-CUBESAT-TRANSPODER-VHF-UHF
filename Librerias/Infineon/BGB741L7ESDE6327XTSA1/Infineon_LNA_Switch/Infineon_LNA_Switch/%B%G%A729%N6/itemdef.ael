@@ -1,0 +1,257 @@
+set_simulator_type(1); 
+set_design_type(analogRFnet); 
+
+
+/*---------forms and formset------------------*/
+
+
+
+
+
+/*---------global variables------------------*/
+
+decl type_default = "BGA729N6 Vcc=1.8 V HighGain"; 
+
+/*---------forms and formset------------------*/
+
+create_constant_form("BGA729N6 Vcc=1.8 V HighGain","BGA729N6 Vcc=1.8 V HighGain", 0, " ", "BGA729N6 Vcc=1.8 V HighGain");
+create_constant_form("BGA729N6 Vcc=2.8 V HighGain","BGA729N6 Vcc=2.8 V HighGain", 0, " ", "BGA729N6 Vcc=2.8 V HighGain");
+create_constant_form("BGA729N6 Vcc=1.8 V Bypass","BGA729N6 Vcc=1.8 V Bypass", 0, " ", "BGA729N6 Vcc=1.8 V Bypass");
+create_constant_form("BGA729N6 Vcc=2.8 V Bypass","BGA729N6 Vcc=2.8 V Bypass", 0, " ", "BGA729N6 Vcc=2.8 V Bypass");
+
+create_form_set("formset_type", "BGA729N6 Vcc=1.8 V HighGain", "BGA729N6 Vcc=2.8 V HighGain", "BGA729N6 Vcc=1.8 V Bypass", "BGA729N6 Vcc=2.8 V Bypass"
+	);
+
+
+
+/*-------modified value parameter callback function--------*/
+defun BGA729N6_parm_modifiedValue_cb ( cbP, parmName, itemInfoP ) 
+{ 
+  decl parmList = NULL; 
+  decl type; 
+  type = pcb_get_form_value(itemInfoP, "Type");
+ 
+ if(parmName == "Type")
+  {
+    if(type == "BGA729N6 Vcc=1.8 V HighGain")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA729_DEVICELVL_1V8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "70 -1000 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.5 -3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "6.3 mA");
+      parmList = pcb_set_string(parmList, "Gain", "16.3 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.05 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-16 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP-6-2\"");
+    } 
+    else if(type == "BGA729N6 Vcc=2.8 V HighGain")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA729_DEVICELVL_2V8_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "70 -1000 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.5 -3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "6.3 mA");
+      parmList = pcb_set_string(parmList, "Gain", "16.5 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.05 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-16 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"-4 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP-6-2\"");
+    } 
+    else if(type == "BGA729N6 Vcc=1.8 V Bypass")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA729_DEVICELVL_1V8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "70 -1000 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.5 -3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "6.3 mA");
+      parmList = pcb_set_string(parmList, "Gain", "-4.5 dB");
+      parmList = pcb_set_string(parmList, "NF", "5.0 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"3 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"16 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP-6-2\"");
+    } 
+    else if(type == "BGA729N6 Vcc=2.8 V Bypass")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA729_DEVICELVL_2V8_Bypass.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "70 -1000 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.5 -3.3 V");
+      parmList = pcb_set_string(parmList, "Icc", "6.3 mA");
+      parmList = pcb_set_string(parmList, "Gain", "-4.2 dB");
+      parmList = pcb_set_string(parmList, "NF", "5.0 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"6 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"21 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP-6-2\"");
+    } 
+  }
+  return(parmList);
+}
+
+decl BGA729N6_SPCompNetlistFmt = ""; 
+decl BGA729N6_net=" "; 
+BGA729N6_net = strcat(Infineon_LNA_Switch_CIRCUIT_MODEL_DIR, "BGA729N6_cktName.net");
+BGA729N6_SPCompNetlistFmt= strcat("#include \"",BGA729N6_net, "\" \n%d:%t%# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p%:%k%?[%1i]%;=%p %;%;%e%e");
+
+create_item("BGA729N6" , 	 //Component name 
+	     "Broadband Low Noise Amplifier for Portable and Mobile TV Applications", 	 //Description 
+	     "SNP", 	 //Instance Prefix 
+	     NULL, 	 //attribute 
+	     NULL, 	 //priority 
+	     NULL, 	 //iconName 
+	     standard_dialog, 	 //dialogCode 
+	     " ", 	 //dialogData 
+	     BGA729N6_SPCompNetlistFmt, 	 //netlistFormat 
+	     "BGA729N6_cktName", 	 //netlistData 
+	     ComponentAnnotFmt, 	 //displayFormat 
+	     "symbol", 	 //symbolName 
+	     no_artwork, //artworkType
+	     NULL, 	 //artworkData 
+	     ITEM_PRIMITIVE_EX 	 //extraAttribute 
+	     ,create_parm("Type", 	 //Param name 
+		        "Component type",	 //Param Desc 
+		        PARM_NOT_NETLISTED | PARM_DISCRETE_VALUE,
+		        "formset_type", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm(type_default)		 //defaultValue 
+ 			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "Type", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+		 ,create_parm("File", 	 //Param name 
+		        "File", 	 //Param Desc 
+		        PARM_STRING | PARM_NO_DISPLAY,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm("StdForm", "\"BGA729_DEVICELVL_1V8_HG.S2P\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "File", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Temp", 	 //Param name 
+		        "Temperature", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_OPTIMIZABLE | PARM_STATISTICAL,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        TEMPERATURE_UNIT,
+		        prm("StdForm", "25")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "Temp", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Frequency", 	 //Param name 
+		        "Operating Frequency Range", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        FREQUENCY_UNIT,
+		        prm("StdForm", "70 -1000 MHz")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "Frequency", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Vcc", 	 //Param name 
+		        "Supply Voltage", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        VOLTAGE_UNIT,
+		        prm("StdForm", "1.5 -3.3 V")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "Vcc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Icc", 	 //Param name 
+		        "Supply Current", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        CURRENT_UNIT,
+		        prm("StdForm", "6.3 mA")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "Icc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Gain", 	 //Param name 
+		        "Power Gain", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "16.3 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "Gain", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("NF", 	 //Param name 
+		        "Noise Figure", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "1.05 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "NF", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IP1dB", 	 //Param name 
+		        "Input 1dB compression Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-16 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "IP1dB", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IIP3", 	 //Param name 
+		        "Input 3rd Order Intercept Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-4 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "IIP3", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Package", 	 //Param name 
+		        "Package Information", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"TSNP-6-2\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA729N6_parm_modifiedValue_cb", 	 // function name 
+						  "Package", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+
+	     
+);

@@ -1,0 +1,30 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name
+"C1, C2",2,1nF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+"C10, C11, C17, C18, C20, C22, C24, C8",8,100nF,C_0402_1005Metric,,,,smt,Unpolarized capacitor,,,,
+"C10, C12",2,10pF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+"C11, C13",2,0.1uF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+"C12, C13, C19, C21, C23, C25, C9",7,10nF,C_0402_1005Metric,,,,smt,Unpolarized capacitor,,,,
+C14,1,3.3nF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+C15,1,47nF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+C16,1,1.5nF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+"C3, C4",2,1uF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+"C5, C6",2,5.6pF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+C7,1,120pF,C_0603_1608Metric,,,,smt,Unpolarized capacitor,,,,
+IC1,1,STM32L422CBT6,QFP50P900X900X160-48N,,STM32L422CBT6,,smt,"Ultra-low-power Arm Cortex-M4 32-bit MCU+FPU, 100DMIPS, 128KB flash, 40KB SRAM, analog, AES",1.6,511-STM32L422CBT6,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L422CBT6?qs=%252BEew9%252B0nqrA%252BA7TEF5s7jA%3D%3D,STMicroelectronics
+IC2,1,BGB_741L7ESD_E6327,BGB741L7ESDE6327,,BGB 741L7ESD E6327,,smt,"Infineon BGB741L7ESD BGB 741L7ESD E6327, RF Amplifier Low Noise, 21.5 dB 5 GHz, 6-Pin TSLP-7-1",0.55,726-BGB741L7ESDE63,https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGB-741L7ESD-E6327?qs=nTClRYuuQBouXaJjSylDSQ%3D%3D,Infineon
+IC3,1,ADE-5+,ADE5,,ADE-5+,,smt,RF Mixer DBL BAL MIX / SURF MT /   RoHS,2.84,139-ADE-5,https://www.mouser.co.uk/ProductDetail/Mini-Circuits/ADE-5%2b?qs=xZ%2FP%252Ba9zWqYmwk%2F%2Fds48gw%3D%3D,Mini-Circuits
+"J1, J2",2,Conn_02x30_Row_Letter_First,PinSocket_2x30_P2.00mm_Vertical,,,,tht,"Generic connector, double row, 02x30, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,
+"J3, J4",2,Conn_Coaxial_Small,SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount,,,,smt,"small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",,,,
+"L1, L2",2,390nH,L_0603_1608Metric,,,,smt,Inductor,,,,
+"L3, L5",2,30nH,L_0603_1608Metric,,,,smt,Inductor,,,,
+L4,1,120nH,L_0603_1608Metric,,,,smt,Inductor,,,,
+"R1, R2, R3, R7, R8, R9",6,1k,R_0603_1608Metric,,,,smt,Resistor,,,,
+R10,1,330,R_0603_1608Metric,,,,smt,Resistor,,,,
+R11,1,680,R_0603_1608Metric,,,,smt,Resistor,,,,
+R12,1,33,R_0603_1608Metric,,,,smt,Resistor,,,,
+R4,1,10k,R_0603_1608Metric,,,,smt,Resistor,,,,
+R5,1,100k,R_0603_1608Metric,,,,smt,Resistor,,,,
+R6,1,5.1k,R_0603_1608Metric,,,,smt,Resistor,,,,
+U1,1,XC6206P302,SOT-23-3,,,,smt,"Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23",,,,
+U2,1,ADF4351,LFCSP-32-1EP_5x5mm_P0.5mm_EP3.25x3.25mm,,,,smt,"35-4400MHz fractional-N PLL, LFCSP-32",,,,
+Y1,1,ECS-TXO-2520MV-120-AY-TR,ECSTXO2520MV120AYTR,,ECS-TXO-2520MV-120-AY-TR,,smt,"TCXO Oscillators MultiVolt OSC TCXO 12.000MHZ CMOS SMD ECS-TXO-2520MV 12MHz CMOS +1.7V +3.6V +/-2.5ppm -30 C 85 C - Surface Mount 0.098"" L x 0.079"" W (2.50mm x 2.00mm) 0.035"" (0.90mm) 4-SMD, No Lead (DFN, LCC)",1,520-TXO2520MV120AYTR,https://www.mouser.co.uk/ProductDetail/ECS/ECS-TXO-2520MV-120-AY-TR?qs=bAKSY%2FctAC6B08N7%252By9row%3D%3D,ECS

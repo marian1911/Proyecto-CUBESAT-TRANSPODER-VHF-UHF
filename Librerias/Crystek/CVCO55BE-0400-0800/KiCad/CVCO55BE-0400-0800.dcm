@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CVCO55BE-0400-0800
+D VCO Oscillators 400MHz-800MHz
+K
+F http://www.crystek.com/microwave/admin/webapps/welcome/files/vco/CVCO55BE-0400-0800.pdf
+$ENDCMP
+#
+#End Doc Library

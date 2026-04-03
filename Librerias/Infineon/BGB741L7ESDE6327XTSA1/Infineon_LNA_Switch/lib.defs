@@ -1,0 +1,3 @@
+# Library Defs for Infineon_LNA_Switch design kit 
+DEFINE Infineon_LNA_Switch ./Infineon_LNA_Switch
+ASSIGN Infineon_LNA_Switch libMode readOnly 

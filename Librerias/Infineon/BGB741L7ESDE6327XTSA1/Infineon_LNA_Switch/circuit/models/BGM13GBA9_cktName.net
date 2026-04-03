@@ -1,0 +1,5 @@
+define BGM13GBA9_cktName(Pin1 Pin2 Pin3 )
+parameters File="" 
+#uselib "ckt", "S2P" 
+S2P:X1 Pin1 Pin2 Pin3 File=File 
+end BGM13GBA9_cktName 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC6206P302MR-G
+D 1UA LOW QUIESCENT 3 TERMINAL, LO
+K
+F https://www.torexsemi.com/file/xc6206/XC6206.pdf
+$ENDCMP
+#
+#End Doc Library

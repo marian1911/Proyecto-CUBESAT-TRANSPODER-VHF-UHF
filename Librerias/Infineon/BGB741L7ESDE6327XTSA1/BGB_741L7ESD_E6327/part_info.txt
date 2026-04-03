@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=BGB 741L7ESD E6327
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=7
+Version=1.3
+Released=2019-11-17 00:03:38
+Downloaded=2026-03-11 22:17:51
+3D=Y

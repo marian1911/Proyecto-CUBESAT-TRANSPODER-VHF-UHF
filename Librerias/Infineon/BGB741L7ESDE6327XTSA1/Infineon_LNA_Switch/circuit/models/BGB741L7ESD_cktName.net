@@ -1,0 +1,5 @@
+define BGB741L7ESD_cktName(Pin1 Pin2 )
+parameters File="" Temp="" Frequency="" Vcc="" Icc="" Gain="" NF="" Ip1dB="" IIP3="" Package="" 
+#uselib "ckt", "S2P" 
+S2P:X1 Pin1 Pin2 0 File=File Temp=Temp Frequency=Frequency Vcc=Vcc Icc=Icc Gain=Gain NF=NF Ip1dB=Ip1dB IIP3=IIP3 Package=Package 
+end BGB741L7ESD_cktName 

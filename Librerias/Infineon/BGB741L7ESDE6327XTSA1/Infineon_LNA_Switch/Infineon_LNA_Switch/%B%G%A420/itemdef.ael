@@ -1,0 +1,257 @@
+set_simulator_type(1); 
+set_design_type(analogRFnet); 
+
+
+/*---------forms and formset------------------*/
+
+
+
+
+
+/*---------global variables------------------*/
+
+decl type_default = "BGA420 Vcc=2.0V  Icc=3.4mA"; 
+
+/*---------forms and formset------------------*/
+
+create_constant_form("BGA420 Vcc=2.0V  Icc=3.4mA","BGA420 Vcc=2.0V  Icc=3.4mA", 0, " ", "BGA420 Vcc=2.0V  Icc=3.4mA");
+create_constant_form("BGA420 Vcc=3.0V  Icc=6.4mA","BGA420 Vcc=3.0V  Icc=6.4mA", 0, " ", "BGA420 Vcc=3.0V  Icc=6.4mA");
+create_constant_form("BGA420 Vcc=4.0V  Icc=9.4mA","BGA420 Vcc=4.0V  Icc=9.4mA", 0, " ", "BGA420 Vcc=4.0V  Icc=9.4mA");
+create_constant_form("BGA420 Vcc=5.0V  Icc=12.4mA","BGA420 Vcc=5.0V  Icc=12.4mA", 0, " ", "BGA420 Vcc=5.0V  Icc=12.4mA");
+
+create_form_set("formset_type", "BGA420 Vcc=2.0V  Icc=3.4mA", "BGA420 Vcc=3.0V  Icc=6.4mA", "BGA420 Vcc=4.0V  Icc=9.4mA", "BGA420 Vcc=5.0V  Icc=12.4mA"
+	);
+
+
+
+/*-------modified value parameter callback function--------*/
+defun BGA420_parm_modifiedValue_cb ( cbP, parmName, itemInfoP ) 
+{ 
+  decl parmList = NULL; 
+  decl type; 
+  type = pcb_get_form_value(itemInfoP, "Type");
+ 
+ if(parmName == "Type")
+  {
+    if(type == "BGA420 Vcc=2.0V  Icc=3.4mA")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA420_2p0V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "1 - 3000 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.0 - 5.0 V");
+      parmList = pcb_set_string(parmList, "Icc", "3.0 - 13.0 mA");
+      parmList = pcb_set_string(parmList, "Gain", "14 dB");
+      parmList = pcb_set_string(parmList, "NF", "2.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-18 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"-8 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"SOT343\"");
+    } 
+    else if(type == "BGA420 Vcc=3.0V  Icc=6.4mA")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA420_3p0V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "1 - 3000 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.0 - 5.0 V");
+      parmList = pcb_set_string(parmList, "Icc", "3.0 - 13.0 mA");
+      parmList = pcb_set_string(parmList, "Gain", "14 dB");
+      parmList = pcb_set_string(parmList, "NF", "2.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-18 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"-8 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"SOT343\"");
+    } 
+    else if(type == "BGA420 Vcc=4.0V  Icc=9.4mA")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA420_4p0V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "1 - 3000 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.0 - 5.0 V");
+      parmList = pcb_set_string(parmList, "Icc", "3.0 - 13.0 mA");
+      parmList = pcb_set_string(parmList, "Gain", "14 dB");
+      parmList = pcb_set_string(parmList, "NF", "2.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-18 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"-8 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"SOT343\"");
+    } 
+    else if(type == "BGA420 Vcc=5.0V  Icc=12.4mA")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA420_5p0V.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "1 - 3000 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "2.0 - 5.0 V");
+      parmList = pcb_set_string(parmList, "Icc", "3.0 - 13.0 mA");
+      parmList = pcb_set_string(parmList, "Gain", "14 dB");
+      parmList = pcb_set_string(parmList, "NF", "2.1 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-18 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"-8 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"SOT343\"");
+    } 
+  }
+  return(parmList);
+}
+
+decl BGA420_SPCompNetlistFmt = ""; 
+decl BGA420_net=" "; 
+BGA420_net = strcat(Infineon_LNA_Switch_CIRCUIT_MODEL_DIR, "BGA420_cktName.net");
+BGA420_SPCompNetlistFmt= strcat("#include \"",BGA420_net, "\" \n%d:%t%# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p%:%k%?[%1i]%;=%p %;%;%e%e");
+
+create_item("BGA420" , 	 //Component name 
+	     "CA TV ; Broadband", 	 //Description 
+	     "SNP", 	 //Instance Prefix 
+	     NULL, 	 //attribute 
+	     NULL, 	 //priority 
+	     NULL, 	 //iconName 
+	     standard_dialog, 	 //dialogCode 
+	     " ", 	 //dialogData 
+	     BGA420_SPCompNetlistFmt, 	 //netlistFormat 
+	     "BGA420_cktName", 	 //netlistData 
+	     ComponentAnnotFmt, 	 //displayFormat 
+	     "symbol", 	 //symbolName 
+	     no_artwork, //artworkType
+	     NULL, 	 //artworkData 
+	     ITEM_PRIMITIVE_EX 	 //extraAttribute 
+	     ,create_parm("Type", 	 //Param name 
+		        "Component type",	 //Param Desc 
+		        PARM_NOT_NETLISTED | PARM_DISCRETE_VALUE,
+		        "formset_type", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm(type_default)		 //defaultValue 
+ 			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "Type", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+		 ,create_parm("File", 	 //Param name 
+		        "File", 	 //Param Desc 
+		        PARM_STRING | PARM_NO_DISPLAY,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm("StdForm", "\"BGA420_2p0V.S2P\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "File", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Temp", 	 //Param name 
+		        "Temperature", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_OPTIMIZABLE | PARM_STATISTICAL,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        TEMPERATURE_UNIT,
+		        prm("StdForm", "25")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "Temp", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Frequency", 	 //Param name 
+		        "Operating Frequency Range", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        FREQUENCY_UNIT,
+		        prm("StdForm", "1 - 3000 MHz")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "Frequency", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Vcc", 	 //Param name 
+		        "Supply Voltage", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        VOLTAGE_UNIT,
+		        prm("StdForm", "2.0 - 5.0 V")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "Vcc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Icc", 	 //Param name 
+		        "Supply Current", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        CURRENT_UNIT,
+		        prm("StdForm", "3.0 - 13.0 mA")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "Icc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Gain", 	 //Param name 
+		        "Power Gain", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "14 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "Gain", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("NF", 	 //Param name 
+		        "Noise Figure", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "2.1 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "NF", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IP1dB", 	 //Param name 
+		        "Input 1dB Compression Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-18 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "IP1dB", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IIP3", 	 //Param name 
+		        "Input 3rd Order Intercept Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-8 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "IIP3", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Package", 	 //Param name 
+		        "Package Information", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"SOT343\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA420_parm_modifiedValue_cb", 	 // function name 
+						  "Package", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+
+	     
+);

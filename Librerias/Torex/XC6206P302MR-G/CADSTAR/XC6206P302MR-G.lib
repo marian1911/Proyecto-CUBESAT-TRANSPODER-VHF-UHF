@@ -1,0 +1,16 @@
+.XC6206P302MR-G :1 ;1UA LOW QUIESCENT 3 TERMINAL, LO
+SOT95P280X130-3N
+*STM IC
+*NGS
+*PLB 1="VSS" 2="VOUT" 3="VIN"
+*MXP 3
+*DFN XC6206P302MR-G
+~!Mouser Part Number (865-XC6206P302MR-G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6206P302MR-G?qs=AsjdqWjXhJ%2FCPGHa4B8pZA%3D%3D)
+~!Manufacturer_Name (Torex)
+~!Manufacturer_Part_Number (XC6206P302MR-G)
+~!Link Datasheet (https://www.torexsemi.com/file/xc6206/XC6206.pdf)
+~!Height (1.3mm)
+~!3D_Model (XC6206P302MR-G)
+XC6206P302MR-G
+1.1!U 2.1!U 3.1!U 

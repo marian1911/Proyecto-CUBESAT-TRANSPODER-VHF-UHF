@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ECS-TXO-2520MV-120-AY-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-22-08:56:04)
+    (mountForm default
+        (footprintRef "ECSTXO2520MV120AYTR")
+        (spec "System")
+    )
+)

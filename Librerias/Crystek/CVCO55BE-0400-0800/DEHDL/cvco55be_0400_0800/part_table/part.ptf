@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CVCO55BE_0400_0800'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Crystek", "CVCO55BE-0400-0800" (!) = "", "CVCO55BE04000800", "Other", "549-CV55BE0400-0800", "https://www.mouser.co.uk/ProductDetail/Crystek-Corporation/CVCO55BE-0400-0800?qs=O9nmv0aA33UiGXPclCNPWQ%3D%3D", "", "", "VCO Oscillators 400MHz-800MHz", "http://www.crystek.com/microwave/admin/webapps/welcome/files/vco/CVCO55BE-0400-0800.pdf", "3.81 mm"
+END_PART
+
+END.

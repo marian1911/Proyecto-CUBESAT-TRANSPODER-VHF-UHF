@@ -1,0 +1,9 @@
+Manufacturer=Crystek
+PartNumber=CVCO55BE-0400-0800
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=16
+Version=1.1
+Released=2022-09-18 10:58:43
+Downloaded=2026-03-12 02:10:20
+3D=Y

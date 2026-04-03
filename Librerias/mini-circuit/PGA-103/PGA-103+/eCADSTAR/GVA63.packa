@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PGA-103+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-13-13:01:39)
+    (mountForm default
+        (footprintRef "GVA63")
+        (spec "System")
+    )
+)

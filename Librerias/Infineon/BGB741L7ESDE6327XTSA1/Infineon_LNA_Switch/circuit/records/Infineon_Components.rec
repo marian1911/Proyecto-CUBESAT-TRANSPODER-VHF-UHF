@@ -1,0 +1,418 @@
+<COMPONENTS>
+    <COMPONENT>
+        <NAME>BGA231N7</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA416</NAME>
+        <DESCRIPTION>CA TV; Broadband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA420</NAME>
+        <DESCRIPTION>CA TV ; Broadband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA427</NAME>
+        <DESCRIPTION>CA TV Broadband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA428</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA524N6</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA612</NAME>
+        <DESCRIPTION>CA TV; Broadband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA614</NAME>
+        <DESCRIPTION>CA TV; Broadband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA615L7</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA616</NAME>
+        <DESCRIPTION>CA TV; Broadband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA622L7</NAME>
+        <DESCRIPTION>1x High Band :1H</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA6H1BN6</NAME>
+        <DESCRIPTION>Silicon Germanium Low Noise Amplifier for LTE</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA6L1BN6</NAME>
+        <DESCRIPTION>Silicon Germanium Low Noise Amplifier for LTE</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA711N7</NAME>
+        <DESCRIPTION>LTE/3G;1x High Band:1H</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA713N7</NAME>
+        <DESCRIPTION>LTE/3G;1x Low Band:1L</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA715N7</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA725L6</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA728L7</NAME>
+        <DESCRIPTION>CA TV; Broadband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA729N6</NAME>
+        <DESCRIPTION>Broadband Low Noise Amplifier for Portable and Mobile TV Applications</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA735N16</NAME>
+        <DESCRIPTION>LTE/3G:3x Bands: 2H1L</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA748L16</NAME>
+        <DESCRIPTION>LTE/ 3G; 4x Bands_2MH2L</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA751N7</NAME>
+        <DESCRIPTION>LTE/3G; 1x Low Band:1L</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA777N7</NAME>
+        <DESCRIPTION>LTE/ 3G; 1x High Band:1H</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA7H1BN6</NAME>
+        <DESCRIPTION>Silicon Germanium Low Noise Amplifier for LTE</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA7H1N6</NAME>
+        <DESCRIPTION>LTE; 1xHigh Band :1H</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA7L1BN6</NAME>
+        <DESCRIPTION>Silicon Germanium Low Noise Amplifier for LTE</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA7L1N6</NAME>
+        <DESCRIPTION>LTE; 1x Low Band</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA7M1N6</NAME>
+        <DESCRIPTION>LTE; 1x Mid Band:1M</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA824N6</NAME>
+        <DESCRIPTION>GNSS and LTE Bands 10 and 21</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA8G1BN6</NAME>
+        <DESCRIPTION>BGA8G1BN6</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA8H1BN6</NAME>
+        <DESCRIPTION>Low Noise Amplifier for LTE Mid- and Highband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA8L1BN6</NAME>
+        <DESCRIPTION>Low Noise Amplifier for LTE Lowband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA8U1BN6</NAME>
+        <DESCRIPTION>LNA for Ultra High Band 4 - 6GHz (with Bypass)</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA8V1BN6</NAME>
+        <DESCRIPTION>BGA8V1BN6</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA915N7</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA924N6</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGA925L6</NAME>
+        <DESCRIPTION>GNSS</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGB707L7ESD</NAME>
+        <DESCRIPTION>FM Radio</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGB719N7ESD</NAME>
+        <DESCRIPTION>FM Radio</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGB741L7ESD</NAME>
+        <DESCRIPTION>FM Radio; CA TV; Broadband</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM12LBA9</NAME>
+        <DESCRIPTION>SP2T LNA Multiplexer Module with Bypass</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM13GBA9</NAME>
+        <DESCRIPTION>SP3T LNA Multiplexer Module with Bypass</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM13HBA9</NAME>
+        <DESCRIPTION>SP3T LNA Multiplexer Module with Bypass</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM15HA12</NAME>
+        <DESCRIPTION>4G/LTE-A; High Band</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM15LA12</NAME>
+        <DESCRIPTION>4G/LTE-A; Low Band</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM15LBA12</NAME>
+        <DESCRIPTION>SP5T LNA Multiplexer Module with Bypass</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM15MA12</NAME>
+        <DESCRIPTION>4G/LTE-A; Mid Bank</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM17LBA15</NAME>
+        <DESCRIPTION>SP7T LNA Multiplexer Module with Bypass</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM7LLHM4L12</NAME>
+        <DESCRIPTION>4G/LTE-A; 2x Low Bands:2L;1x Mid Band :1M;1x High Band:1H</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM7LMHM4L12</NAME>
+        <DESCRIPTION>4G/LTE-A; 1x Low Band:1L;2x Mid Bands :2M;1x High Band:1H</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM7MHLL4L12</NAME>
+        <DESCRIPTION>4G/LTE-A; 2x Low Bands: 2L;1x Mid Band: 1M;1x High Band:1H</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>BGM7MLLM4L12</NAME>
+        <DESCRIPTION>4G/LTE-A; 2x Low Bands:2L; 2X Mid Bands: 2M</DESCRIPTION>
+        <VENDOR>Infineon Technologies AG</VENDOR>
+        <LIBRARY>Infineon_LNA_Switch</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.infineon.com</URL>
+    </COMPONENT>
+</COMPONENTS>

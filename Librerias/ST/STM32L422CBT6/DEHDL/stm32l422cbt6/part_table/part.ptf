@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32L422CBT6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32L422CBT6" (!) = "", "QFP50P900X900X160-48N", "Quad Flat Packages", "511-STM32L422CBT6", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L422CBT6?qs=%252BEew9%252B0nqrA%252BA7TEF5s7jA%3D%3D", "Ultra-low-power Arm Cortex-M4 32-bit MCU+FPU, 100DMIPS, 128KB flash, 40KB SRAM, analog, AES", "https://www.st.com/resource/en/datasheet/stm32l422cb.pdf", "1.6 mm"
+END_PART
+
+END.

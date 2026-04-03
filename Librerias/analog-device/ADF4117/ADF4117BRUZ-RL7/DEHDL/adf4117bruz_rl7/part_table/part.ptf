@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADF4117BRUZ_RL7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "ADF4117BRUZ-RL7" (!) = "", "SOP65P640X120-16N", "Small Outline Packages", "584-ADF4117BRUZ-R7", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADF4117BRUZ-RL7?qs=BpaRKvA4VqF9w8dTySOKZw%3D%3D", "Single, Integer-N 1.2 GHz PLL", "https://www.analog.com/ADF4117/datasheet", "1.2 mm"
+END_PART
+
+END.

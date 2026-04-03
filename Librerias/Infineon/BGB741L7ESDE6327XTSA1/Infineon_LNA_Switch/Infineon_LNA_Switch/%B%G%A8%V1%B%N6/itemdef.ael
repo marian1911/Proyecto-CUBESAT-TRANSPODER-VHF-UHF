@@ -1,0 +1,257 @@
+set_simulator_type(1); 
+set_design_type(analogRFnet); 
+
+
+/*---------forms and formset------------------*/
+
+
+
+
+
+/*---------global variables------------------*/
+
+decl type_default = "BGA8V1BN6 HighGain Vcc=2.8V"; 
+
+/*---------forms and formset------------------*/
+
+create_constant_form("BGA8V1BN6 HighGain Vcc=2.8V","BGA8V1BN6 HighGain Vcc=2.8V", 0, " ", "BGA8V1BN6 HighGain Vcc=2.8V");
+create_constant_form("BGA8V1BN6 HighGain Vcc=1.8V","BGA8V1BN6 HighGain Vcc=1.8V", 0, " ", "BGA8V1BN6 HighGain Vcc=1.8V");
+create_constant_form("BGA8V1BN6 Bypass Vcc=2.8V","BGA8V1BN6 Bypass Vcc=2.8V", 0, " ", "BGA8V1BN6 Bypass Vcc=2.8V");
+create_constant_form("BGA8V1BN6 Bypass Vcc=1.8V","BGA8V1BN6 Bypass Vcc=1.8V", 0, " ", "BGA8V1BN6 Bypass Vcc=1.8V");
+
+create_form_set("formset_type", "BGA8V1BN6 HighGain Vcc=2.8V", "BGA8V1BN6 HighGain Vcc=1.8V", "BGA8V1BN6 Bypass Vcc=2.8V", "BGA8V1BN6 Bypass Vcc=1.8V"
+	);
+
+
+
+/*-------modified value parameter callback function--------*/
+defun BGA8V1BN6_parm_modifiedValue_cb ( cbP, parmName, itemInfoP ) 
+{ 
+  decl parmList = NULL; 
+  decl type; 
+  type = pcb_get_form_value(itemInfoP, "Type");
+ 
+ if(parmName == "Type")
+  {
+    if(type == "BGA8V1BN6 HighGain Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA8V1BN6_2P8V_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "3300 - 3800 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.6 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.2 mA");
+      parmList = pcb_set_string(parmList, "Gain", "15.0 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.2 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-15 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"-3 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP -6-2\"");
+    } 
+    else if(type == "BGA8V1BN6 HighGain Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA8V1BN6_1P8V_HG.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "3300 - 3800 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.6 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "4.0 mA");
+      parmList = pcb_set_string(parmList, "Gain", "15.3 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.2 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-15 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"-3.5 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP -6-2\"");
+    } 
+    else if(type == "BGA8V1BN6 Bypass Vcc=2.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA8V1BN6_2P8V_BYP.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "3300 - 3800 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.6 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "85 uA");
+      parmList = pcb_set_string(parmList, "Gain", "-5.3 dB");
+      parmList = pcb_set_string(parmList, "NF", "5.3 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-3 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+6 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP -6-2\"");
+    } 
+    else if(type == "BGA8V1BN6 Bypass Vcc=1.8V")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"BGA8V1BN6_1P8V_BYP.S2P\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+      parmList = pcb_set_string(parmList, "Frequency", "3300 - 3800 MHz");
+      parmList = pcb_set_string(parmList, "Vcc", "1.6 - 3.1 V");
+      parmList = pcb_set_string(parmList, "Icc", "80 mA");
+      parmList = pcb_set_string(parmList, "Gain", "-5.3 dB");
+      parmList = pcb_set_string(parmList, "NF", "1.2 dB");
+      parmList = pcb_set_string(parmList, "IP1dB", "\"-4.1 dBm\"");
+      parmList = pcb_set_string(parmList, "IIP3", "\"+6.5 dBm\"");
+      parmList = pcb_set_string(parmList, "Package", "\"TSNP -6-2\"");
+    } 
+  }
+  return(parmList);
+}
+
+decl BGA8V1BN6_SPCompNetlistFmt = ""; 
+decl BGA8V1BN6_net=" "; 
+BGA8V1BN6_net = strcat(Infineon_LNA_Switch_CIRCUIT_MODEL_DIR, "BGA8V1BN6_cktName.net");
+BGA8V1BN6_SPCompNetlistFmt= strcat("#include \"",BGA8V1BN6_net, "\" \n%d:%t%# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p%:%k%?[%1i]%;=%p %;%;%e%e");
+
+create_item("BGA8V1BN6" , 	 //Component name 
+	     "BGA8V1BN6", 	 //Description 
+	     "SNP", 	 //Instance Prefix 
+	     NULL, 	 //attribute 
+	     NULL, 	 //priority 
+	     NULL, 	 //iconName 
+	     standard_dialog, 	 //dialogCode 
+	     " ", 	 //dialogData 
+	     BGA8V1BN6_SPCompNetlistFmt, 	 //netlistFormat 
+	     "BGA8V1BN6_cktName", 	 //netlistData 
+	     ComponentAnnotFmt, 	 //displayFormat 
+	     "symbol", 	 //symbolName 
+	     no_artwork, //artworkType
+	     NULL, 	 //artworkData 
+	     ITEM_PRIMITIVE_EX 	 //extraAttribute 
+	     ,create_parm("Type", 	 //Param name 
+		        "Component type",	 //Param Desc 
+		        PARM_NOT_NETLISTED | PARM_DISCRETE_VALUE,
+		        "formset_type", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm(type_default)		 //defaultValue 
+ 			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Type", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+		 ,create_parm("File", 	 //Param name 
+		        "File", 	 //Param Desc 
+		        PARM_STRING | PARM_NO_DISPLAY,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm("StdForm", "\"BGA8V1BN6_2P8V_HG.S2P\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "File", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Temp", 	 //Param name 
+		        "Temperature", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        TEMPERATURE_UNIT,
+		        prm("StdForm", "25")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Temp", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Frequency", 	 //Param name 
+		        "Operating Frequency Range", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        FREQUENCY_UNIT,
+		        prm("StdForm", "3300 - 3800 MHz")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Frequency", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Vcc", 	 //Param name 
+		        "Supply Voltage", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        VOLTAGE_UNIT,
+		        prm("StdForm", "1.6 - 3.1 V")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Vcc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Icc", 	 //Param name 
+		        "Supply Current", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        CURRENT_UNIT,
+		        prm("StdForm", "4.2 mA")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Icc", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Gain", 	 //Param name 
+		        "Power Gain", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "15.0 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Gain", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("NF", 	 //Param name 
+		        "Noise Figure", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        DB_GAIN_UNIT,
+		        prm("StdForm", "1.2 dB")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "NF", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IP1dB", 	 //Param name 
+		        "Input 1dB Compression Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-15 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "IP1dB", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("IIP3", 	 //Param name 
+		        "Input 3rd Order Intercept Point", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"-3 dBm\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "IIP3", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Package", 	 //Param name 
+		        "Package Information", 	 //Param Desc 
+		        PARM_NO_DISPLAY | PARM_NOT_EDITED | PARM_NOT_NETLISTED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"TSNP -6-2\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "BGA8V1BN6_parm_modifiedValue_cb", 	 // function name 
+						  "Package", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+
+	     
+);
