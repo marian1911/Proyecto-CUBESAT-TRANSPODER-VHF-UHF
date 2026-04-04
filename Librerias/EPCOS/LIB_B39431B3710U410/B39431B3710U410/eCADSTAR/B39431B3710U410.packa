@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B39431B3710U410"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-03-22-10:33:44)
+    (mountForm default
+        (footprintRef "B39431B3710U410")
+        (spec "System")
+    )
+)

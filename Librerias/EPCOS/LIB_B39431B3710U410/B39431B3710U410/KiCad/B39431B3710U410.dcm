@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B39431B3710U410
+D Signal Conditioning 433.92MHz 50ohms B3710 2dB 6V
+K
+F https://www.digikey.com/en/products/detail/qualcomm-rf-front-end-rffe-filters/B39431B3710U410/699773?msockid=3bdc366bbe0663d83c1223c0bf3662a6
+$ENDCMP
+#
+#End Doc Library

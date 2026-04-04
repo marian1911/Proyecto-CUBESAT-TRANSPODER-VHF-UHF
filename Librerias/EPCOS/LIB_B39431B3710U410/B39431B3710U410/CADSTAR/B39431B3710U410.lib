@@ -1,0 +1,16 @@
+.B39431B3710U410 :1 ;Signal Conditioning 433.92MHz 50ohms B3710 2dB 6V
+B39431B3710U410
+*STM FL
+*NGS
+*PLB 1="GROUND_1" 2="INPUT" 3="GROUND_2" 4="GROUND_3" 5="OUTPUT" 6="GROUND_4"
+*MXP 6
+*DFN B39431B3710U410
+~!Mouser Part Number (871-B39431B3710U410)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/RF360/B39431B3710U410?qs=hkeJtpWWodAvZBWtdUV7AQ%3D%3D)
+~!Manufacturer_Name (RF360)
+~!Manufacturer_Part_Number (B39431B3710U410)
+~!Link Datasheet (https://www.digikey.com/en/products/detail/qualcomm-rf-front-end-rffe-filters/B39431B3710U410/699773?msockid=3bdc366bbe0663d83c1223c0bf3662a6)
+~!Height (1.225mm)
+~!3D_Model (B39431B3710U410)
+B39431B3710U410
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
