@@ -7685,6 +7685,17 @@
 		)
 		(uuid "b685e10c-c2d1-47c3-8c1a-f3332e2a14b4")
 	)
+	(text "Matching circuit: LQW18AN39NG00D\nCase 0603\nTolerance 2%\nQ > 47\nSFR >> IFx3\nL = 39nH\n"
+		(exclude_from_sim no)
+		(at 277.876 155.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c290b29f-52e7-4543-9222-ddb6d38034dc")
+	)
 	(text "PIN OUT"
 		(exclude_from_sim yes)
 		(at 24.13 17.018 0)
@@ -8067,6 +8078,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 134.62) (xy 267.97 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061b141f-ea3e-4e5b-bae5-94fb192c5a15")
+	)
+	(wire
+		(pts
 			(xy 99.06 128.27) (xy 102.87 128.27)
 		)
 		(stroke
@@ -8414,6 +8435,16 @@
 			(type default)
 		)
 		(uuid "301e0da8-e6de-4218-ace8-ebbd3a293d5e")
+	)
+	(wire
+		(pts
+			(xy 320.04 134.62) (xy 326.39 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a67f16-0d54-440f-be6b-e60f7f8a39df")
 	)
 	(wire
 		(pts
@@ -8797,6 +8828,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 134.62) (xy 375.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72850b63-7fb0-447f-aa9b-0ae6e195f45a")
+	)
+	(wire
+		(pts
 			(xy 24.13 193.04) (xy 26.67 193.04)
 		)
 		(stroke
@@ -8994,16 +9035,6 @@
 			(type default)
 		)
 		(uuid "89c4fb04-4468-4eda-b1c2-08f79e7c1613")
-	)
-	(wire
-		(pts
-			(xy 320.04 134.62) (xy 375.92 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a369b0a-13a0-4281-9230-b6c2d7e9ed6e")
 	)
 	(wire
 		(pts
@@ -9384,16 +9415,6 @@
 			(type default)
 		)
 		(uuid "ac36cfdd-71d8-4f3b-b360-0bbb28b2dee1")
-	)
-	(wire
-		(pts
-			(xy 200.66 134.62) (xy 281.94 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af448a77-fdee-496a-ad38-478f5883ece0")
 	)
 	(wire
 		(pts
@@ -9914,6 +9935,16 @@
 			(type default)
 		)
 		(uuid "f7a18408-79e2-4fb4-948a-adfc12e0c094")
+	)
+	(wire
+		(pts
+			(xy 275.59 134.62) (xy 281.94 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8931934-3d06-4317-876d-9b69ad47beea")
 	)
 	(wire
 		(pts
@@ -14532,6 +14563,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 271.78 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c763324-bec2-4469-81c3-8af12139af21")
+		(property "Reference" "L6"
+			(at 271.78 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39nH"
+			(at 271.78 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 271.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 271.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67fd28da-8763-47de-8184-72d9e68148d3")
+		)
+		(pin "2"
+			(uuid "e096ed75-685d-451b-8bfc-da5071aa4126")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 24.13 200.66 0)
 		(unit 1)
@@ -14792,6 +14891,74 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 330.2 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69cdfe91-5c72-4d5e-a113-79d132da4f94")
+		(property "Reference" "L7"
+			(at 330.2 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39nH"
+			(at 330.2 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 330.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 330.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "870fce7c-0e42-40b9-b497-a552d8c63379")
+		)
+		(pin "2"
+			(uuid "73769617-25b0-4057-a066-e271b8072b79")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -15658,7 +15825,7 @@
 				)
 			)
 		)
-		(property "Value" "B39431B3710U410"
+		(property "Value" "B39431B3743H110"
 			(at 300.99 127 0)
 			(effects
 				(font
