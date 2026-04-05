@@ -7773,16 +7773,22 @@
 		(uuid "1822e30e-cd88-4204-9023-3adaaeda02b4")
 	)
 	(junction
+		(at 24.13 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bf76669-d5c0-4a74-bf08-45c35b8c789b")
+	)
+	(junction
 		(at 251.46 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26a7a0ef-87be-40fd-af9f-ecf78d76c408")
 	)
 	(junction
-		(at 40.64 193.04)
+		(at 24.13 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "324f8bca-b914-4504-a9a9-464797dd5f21")
+		(uuid "331d38f6-e695-4134-ba2f-d560b3df1616")
 	)
 	(junction
 		(at 228.6 236.22)
@@ -7845,6 +7851,12 @@
 		(uuid "53bd06e3-cc65-4d5f-b7ae-99a28635132f")
 	)
 	(junction
+		(at 50.8 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "550240ec-cc47-4224-80ed-e4ecc52a95d3")
+	)
+	(junction
 		(at 323.85 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7869,12 +7881,6 @@
 		(uuid "697921b6-8fa7-4be5-9aeb-399675517ef6")
 	)
 	(junction
-		(at 50.8 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c17eb41-3f1d-441d-9494-aa73d7e34b56")
-	)
-	(junction
 		(at 248.92 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7893,10 +7899,10 @@
 		(uuid "8731b251-5113-4ef9-9395-c3974611c9ce")
 	)
 	(junction
-		(at 24.13 243.84)
+		(at 50.8 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e3d1bb0-b7e9-45b9-8bf8-fe31a2399f1b")
+		(uuid "8c079b9d-bac8-4c47-88cf-df9f037b8f3b")
 	)
 	(junction
 		(at 264.16 245.11)
@@ -7905,10 +7911,28 @@
 		(uuid "9245b9f2-af08-40ed-9fdd-8a137c7e2dcb")
 	)
 	(junction
+		(at 40.64 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a7b7a7-21c1-4a0e-b8f3-65cf6e3b586c")
+	)
+	(junction
+		(at 40.64 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9485bf4e-8f5d-4d9e-bc39-a011b68c86dc")
+	)
+	(junction
 		(at 287.02 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9834db66-b51a-4738-980a-eaea7371cd95")
+	)
+	(junction
+		(at 40.64 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a00ccba-81a2-4680-bcb8-28fa193da908")
 	)
 	(junction
 		(at 218.44 224.79)
@@ -7917,16 +7941,16 @@
 		(uuid "9a979f1a-39f5-4083-88b2-999492d968d2")
 	)
 	(junction
+		(at 24.13 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8162d6-9136-4ba5-9656-e669934f41f3")
+	)
+	(junction
 		(at 152.4 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab2340ea-7555-43b1-9772-bcbd5446623e")
-	)
-	(junction
-		(at 40.64 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adceca94-274f-48f8-ae81-fa48af04c066")
 	)
 	(junction
 		(at 106.68 128.27)
@@ -7939,12 +7963,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b41284cd-b207-41b9-9dd7-284358e921eb")
-	)
-	(junction
-		(at 40.64 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4a66253-89a5-45c4-96ef-0b8d58f0d9c5")
 	)
 	(junction
 		(at 120.65 243.84)
@@ -7965,28 +7983,10 @@
 		(uuid "d06a4cb7-e58d-45ea-ae5c-3c532fc8b775")
 	)
 	(junction
-		(at 24.13 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea48cf6e-ca60-4afd-af8d-590c2b8eabfe")
-	)
-	(junction
 		(at 77.47 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0a44587-1c3f-494f-8069-3e68f1d3a674")
-	)
-	(junction
-		(at 50.8 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f177badf-a5f1-442f-ad10-bc751e5cd403")
-	)
-	(junction
-		(at 24.13 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2bc0b12-9290-419c-88e6-9528b22bac27")
 	)
 	(junction
 		(at 134.62 214.63)
@@ -8078,16 +8078,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 209.55) (xy 26.67 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06168b92-f83d-4c2b-ba0a-20938669f119")
-	)
-	(wire
-		(pts
 			(xy 200.66 134.62) (xy 267.97 134.62)
 		)
 		(stroke
@@ -8128,7 +8118,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 209.55) (xy 24.13 209.55)
+			(xy 24.13 209.55) (xy 26.67 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8205,6 +8195,16 @@
 			(type default)
 		)
 		(uuid "132271b8-a7d5-4855-97b4-1de0aec593e5")
+	)
+	(wire
+		(pts
+			(xy 19.05 209.55) (xy 24.13 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152c00aa-8968-4b91-b8d6-f6dc9dbcca66")
 	)
 	(wire
 		(pts
@@ -8318,7 +8318,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 226.06) (xy 24.13 226.06)
+			(xy 24.13 226.06) (xy 26.67 226.06)
 		)
 		(stroke
 			(width 0)
@@ -8458,16 +8458,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 243.84) (xy 26.67 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "355f3d1f-dec2-4356-b1d7-105648292122")
-	)
-	(wire
-		(pts
 			(xy 264.16 262.89) (xy 264.16 265.43)
 		)
 		(stroke
@@ -8475,6 +8465,16 @@
 			(type default)
 		)
 		(uuid "38ef4916-e254-4ab6-bd00-b2b54e55689a")
+	)
+	(wire
+		(pts
+			(xy 19.05 226.06) (xy 24.13 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398b333d-5a0a-4f29-9961-9ec8114fba1b")
 	)
 	(wire
 		(pts
@@ -8568,13 +8568,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 226.06) (xy 55.88 226.06)
+			(xy 50.8 209.55) (xy 55.88 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "460831af-0ee4-48d1-905d-1314a50c161f")
+		(uuid "48d9fcdc-2b42-49c0-8311-df2f7e5ec235")
 	)
 	(wire
 		(pts
@@ -8598,7 +8598,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 243.84) (xy 24.13 243.84)
+			(xy 35.56 209.55) (xy 40.64 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cce27b-3a1b-4cf9-8fb3-d8ed7938edaf")
+	)
+	(wire
+		(pts
+			(xy 24.13 243.84) (xy 26.67 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8628,16 +8638,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 193.04) (xy 50.8 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a7410db-b59f-4c64-b0af-c06a8afe2acd")
-	)
-	(wire
-		(pts
 			(xy 144.78 242.57) (xy 152.4 242.57)
 		)
 		(stroke
@@ -8658,6 +8658,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 243.84) (xy 24.13 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9d1a14-eff2-4df7-899f-6425f9c85728")
+	)
+	(wire
+		(pts
 			(xy 251.46 245.11) (xy 264.16 245.11)
 		)
 		(stroke
@@ -8675,16 +8685,6 @@
 			(type default)
 		)
 		(uuid "5de8d7b2-e6c7-499f-a4bc-871bd3ae0d4a")
-	)
-	(wire
-		(pts
-			(xy 50.8 209.55) (xy 55.88 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eee5a06-0b36-4162-9d85-79e3b3ef178c")
 	)
 	(wire
 		(pts
@@ -8835,16 +8835,6 @@
 			(type default)
 		)
 		(uuid "72850b63-7fb0-447f-aa9b-0ae6e195f45a")
-	)
-	(wire
-		(pts
-			(xy 24.13 226.06) (xy 26.67 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7495700e-f9b1-4fdc-a146-7b51a6beeeb1")
 	)
 	(wire
 		(pts
@@ -9368,6 +9358,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 226.06) (xy 50.8 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c7c1fc-c34e-45f5-84f0-8b86de326d73")
+	)
+	(wire
+		(pts
 			(xy 130.81 243.84) (xy 142.24 243.84)
 		)
 		(stroke
@@ -9375,16 +9375,6 @@
 			(type default)
 		)
 		(uuid "a6cea55a-3873-44e0-a4d7-77554d7d0350")
-	)
-	(wire
-		(pts
-			(xy 40.64 226.06) (xy 50.8 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a85a9f7a-89de-448e-b907-fdc36b706aa4")
 	)
 	(wire
 		(pts
@@ -9608,16 +9598,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 209.55) (xy 50.8 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c76d2c42-71e8-403f-963c-08ca1b0bdd15")
-	)
-	(wire
-		(pts
 			(xy 101.6 149.86) (xy 92.71 149.86)
 		)
 		(stroke
@@ -9658,7 +9638,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 209.55) (xy 40.64 209.55)
+			(xy 40.64 209.55) (xy 50.8 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9715,6 +9695,16 @@
 			(type default)
 		)
 		(uuid "d28eaafe-dfc7-43f6-a093-3f70e9e12ed8")
+	)
+	(wire
+		(pts
+			(xy 40.64 193.04) (xy 50.8 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67bc250-8b57-4525-939d-143ee1b7de9e")
 	)
 	(wire
 		(pts
@@ -9955,6 +9945,16 @@
 			(type default)
 		)
 		(uuid "f8931934-3d06-4317-876d-9b69ad47beea")
+	)
+	(wire
+		(pts
+			(xy 50.8 226.06) (xy 55.88 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa442288-1820-4d30-be82-fd1112fbf8f5")
 	)
 	(wire
 		(pts
@@ -11178,6 +11178,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.13 229.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09dff15f-81fd-46b6-a551-7efa2b09ac25")
+		(property "Reference" "C15"
+			(at 27.178 229.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 27.178 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 23.1648 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd448dbf-f687-417f-b377-445b2599a82c")
+		)
+		(pin "1"
+			(uuid "ac6e7aa7-74b6-4ca6-9a63-89ec6e8b0d64")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 229.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d0c951d-1cfb-42c7-85d4-dc5d29ba2426")
+		(property "Reference" "R11"
+			(at 213.36 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 213.36 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 212.598 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b460c0e-91ad-45f7-847d-f7b98a36cd7a")
+		)
+		(pin "2"
+			(uuid "196e5489-cdeb-46df-a59a-82bb543bd5e3")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 99.06 29.21 0)
 		(unit 1)
@@ -11790,6 +11929,75 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 24.13 247.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18ad5e9c-909f-4658-90d0-f0c3a92a1a5b")
+		(property "Reference" "C18"
+			(at 26.924 246.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 26.924 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 23.1648 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2d55754-aa4c-406c-b7ab-6a083b3ebd1b")
+		)
+		(pin "1"
+			(uuid "ba582e9a-c824-4c2d-ad47-444bb23d1af1")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12660,93 +12868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 50.8 213.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3689d25f-e247-4ec7-879f-7f01b9f3dfc4")
-		(property "Reference" "C12"
-			(at 52.578 211.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10pF"
-			(at 51.816 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.8348 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM1555C1H100JA01D"
-			(at 50.8 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM1555C1H100JA1D"
-			(at 50.8 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8889d0de-7517-43fc-9302-d857fcd7ac29")
-		)
-		(pin "1"
-			(uuid "2e8e6cc5-c9e6-4d45-a2c3-5e925989906e")
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 199.39 0)
 		(unit 1)
@@ -13277,6 +13398,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 40.64 229.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41e3ea0a-35eb-4d61-a380-d03798134f85")
+		(property "Reference" "C16"
+			(at 43.688 227.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 42.926 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 39.6748 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ef33f95-402a-4b30-b41d-b8ecf6e86808")
+		)
+		(pin "1"
+			(uuid "64429f9d-47bb-4eee-97e6-9340ddfc0770")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 378.46 134.62 0)
 		(unit 1)
@@ -13561,93 +13751,6 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 24.13 247.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4acdf025-46a8-4a39-9c6a-78fbddf77da6")
-		(property "Reference" "C11"
-			(at 27.178 247.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 27.178 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 23.1648 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 24.13 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R71C104KA88D"
-			(at 24.13 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM155R71C104KA88"
-			(at 24.13 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98d30755-021c-4811-93ba-9180e04a3143")
-		)
-		(pin "1"
-			(uuid "364558c8-ecaa-495a-9e82-06f4ed074fd4")
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -14769,93 +14872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 24.13 229.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b887e37-a2f1-470f-a570-284dd54505df")
-		(property "Reference" "C10"
-			(at 27.178 229.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 27.178 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 23.1648 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 24.13 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R71C104KA88D"
-			(at 24.13 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM155R71C104KA88"
-			(at 24.13 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b03d61ce-23d6-4b2e-bb34-b852819f4be3")
-		)
-		(pin "1"
-			(uuid "5f35b1a6-e7e3-42d9-80ae-157f912d5b62")
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 271.78 134.62 90)
 		(unit 1)
@@ -14918,93 +14934,6 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 229.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e39e593-4442-423e-8099-3983250955ea")
-		(property "Reference" "C17"
-			(at 52.578 227.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10pF"
-			(at 51.816 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.8348 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM1555C1H100JA01D"
-			(at 50.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM1555C1H100JA1D"
-			(at 50.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20d419d7-8706-4bed-9ec2-ba17230472e4")
-		)
-		(pin "1"
-			(uuid "7a7d5c35-4e4e-4677-b2f0-011fd06e22b6")
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16001,6 +15930,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.13 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dd54bb4-f4d0-469c-b900-f4d1de518ba9")
+		(property "Reference" "C10"
+			(at 27.178 212.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 27.178 214.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 23.1648 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3e8eea0-1fd3-4427-a3d6-f1dbaaaf1adc")
+		)
+		(pin "1"
+			(uuid "6dbcc768-95b8-48a7-93d3-9cb143b8c370")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 203.2 233.68 0)
 		(unit 1)
@@ -16267,94 +16265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 210.82 229.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e4c1ec8-4980-441a-9832-d802eacfe35c")
-		(property "Reference" "R11"
-			(at 213.36 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 213.36 231.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 212.598 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 210.82 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0201100RFNED"
-			(at 210.82 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0201100RFNED"
-			(at 210.82 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3c5dd3a-ba60-401d-b656-65d61d3d0f35")
-		)
-		(pin "2"
-			(uuid "d874c971-e0c7-4260-8565-6fe0233c115b")
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 71.12 154.94 90)
 		(unit 1)
@@ -16468,24 +16378,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 24.13 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R71C104KA88D"
-			(at 24.13 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM155R71C104KA88"
 			(at 24.13 196.85 0)
 			(effects
 				(font
@@ -16633,6 +16525,75 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9387ff10-1d95-43de-91b5-f6d18c29eba5")
+		(property "Reference" "C11"
+			(at 42.418 211.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 41.656 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 39.6748 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17a1a1f8-9e20-45c5-a5f1-8630212fba02")
+		)
+		(pin "1"
+			(uuid "f4678f2c-685c-4ddf-bbdb-8cadee10fa47")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -16917,93 +16878,6 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 40.64 196.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f2b52fa-23f5-4ddf-9c8a-f9a72231bcbf")
-		(property "Reference" "C15"
-			(at 43.688 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 43.688 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 39.6748 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 40.64 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R71C104KA88D"
-			(at 40.64 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM155R71C104KA88"
-			(at 40.64 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "41ac32b8-e9dd-442e-945e-f4d8d8bb3268")
-		)
-		(pin "1"
-			(uuid "596a4de9-5379-4a53-bf03-750155a74ff7")
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -17299,6 +17173,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 50.8 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac0abd45-1482-4897-beca-426438d06a47")
+		(property "Reference" "C12"
+			(at 52.578 211.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10pF"
+			(at 51.816 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 49.8348 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9229b82a-b8f3-4e54-9568-5ca28547d624")
+		)
+		(pin "1"
+			(uuid "77ae5462-5824-4eaf-aa23-e7713c386aed")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 264.16 259.08 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17362,6 +17305,75 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 229.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aee7f385-4120-4c52-aca1-5ecfb8946a23")
+		(property "Reference" "C17"
+			(at 52.578 227.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10pF"
+			(at 51.816 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 49.8348 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e041596e-ee10-42c9-94a3-bc847f295554")
+		)
+		(pin "1"
+			(uuid "339c8ff3-ccab-4f3f-ac1b-e282af1403a2")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -17779,93 +17791,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 24.13 213.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0058398-d1e1-4484-b258-ecc7a587e454")
-		(property "Reference" "C6"
-			(at 27.178 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 27.178 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 23.1648 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 24.13 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R71C104KA88D"
-			(at 24.13 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM155R71C104KA88"
-			(at 24.13 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a80e7cc1-089f-49c8-b425-608e128d27ce")
-		)
-		(pin "1"
-			(uuid "84d14e5b-5409-45bd-b8a7-31d90b2c0dd3")
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 287.02 257.81 0)
 		(unit 1)
@@ -18127,93 +18052,6 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 40.64 229.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9f1fc18-91b1-465c-9387-80a9d4c0a169")
-		(property "Reference" "C18"
-			(at 43.688 229.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 43.688 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 39.6748 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 40.64 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R71C104KA88D"
-			(at 40.64 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM155R71C104KA88"
-			(at 40.64 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dcaf19d3-2d77-463c-b0ad-a5e051877945")
-		)
-		(pin "1"
-			(uuid "96ab3c72-053a-4501-b628-430cdce9109d")
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -18667,24 +18505,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM1555C1H100JA01D"
-			(at 50.8 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM1555C1H100JA1D"
 			(at 50.8 196.85 0)
 			(effects
 				(font
@@ -19196,15 +19016,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 213.36 180)
+		(at 40.64 196.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f1c9d860-8662-4e07-804b-d82f2f7da316")
-		(property "Reference" "C16"
-			(at 43.688 212.852 0)
+		(uuid "f2230d2a-c9b3-4f5b-8dbc-f2878e6fa4a3")
+		(property "Reference" "C6"
+			(at 42.418 194.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19213,7 +19033,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 43.688 214.63 0)
+			(at 41.656 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19222,7 +19042,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 39.6748 209.55 0)
+			(at 39.6748 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19231,7 +19051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 213.36 0)
+			(at 40.64 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19240,25 +19060,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R71C104KA88D"
-			(at 40.64 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM155R71C104KA88"
-			(at 40.64 213.36 0)
+			(at 40.64 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19267,15 +19069,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa45cd6e-890a-4ec9-8376-5c7dc1f5e1fe")
+			(uuid "69071173-eeb0-4073-8c8f-99f0873afebe")
 		)
 		(pin "1"
-			(uuid "c61f1ae7-5802-4d46-a72c-d79b2e2adf42")
+			(uuid "9396be1b-0983-40f8-a379-19f017b151ca")
 		)
 		(instances
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
