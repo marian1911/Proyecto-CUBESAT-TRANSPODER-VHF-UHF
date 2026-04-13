@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=PSA-5454+
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2020-06-30 15:50:00
+Downloaded=2026-04-12 20:05:13
+3D=Y

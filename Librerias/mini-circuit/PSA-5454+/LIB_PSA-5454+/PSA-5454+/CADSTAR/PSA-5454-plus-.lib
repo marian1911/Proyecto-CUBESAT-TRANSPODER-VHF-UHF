@@ -1,0 +1,16 @@
+.PSA-5454-plus- :1 ;RF Amplifier ML AMPL / SURF MOUNT / RoHS
+SOT65P215X100-6N
+*STM IC
+*NGS
+*PLB 1="GND_1" 2="GND_2" 3="RF-IN" 4="BIAS" 5="GND_3" 6="RF-OUT"
+*MXP 6
+*DFN PSA-5454-plus-
+~!Mouser Part Number (139-PSA-5454)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Mini-Circuits/PSA-5454%2b?qs=xZ%2FP%252Ba9zWqZ7vOHZyPwVpA%3D%3D)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (PSA-5454+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/PSA-5454+.pdf)
+~!Height (1mm)
+~!3D_Model (PSA-5454+)
+PSA-5454-plus-
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

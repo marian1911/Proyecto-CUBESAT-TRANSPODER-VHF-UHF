@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=SXLP-450+
+PartCategory=Filter
+PackageCategory=Other
+PinCount=8
+Version=1.3
+Released=2024-11-20 06:42:18
+Downloaded=2026-04-11 21:07:14
+3D=Y

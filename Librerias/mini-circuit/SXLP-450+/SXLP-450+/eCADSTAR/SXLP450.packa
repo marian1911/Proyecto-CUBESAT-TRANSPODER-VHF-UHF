@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SXLP-450+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-11-20-06:42:18)
+    (mountForm default
+        (footprintRef "SXLP450")
+        (spec "System")
+    )
+)

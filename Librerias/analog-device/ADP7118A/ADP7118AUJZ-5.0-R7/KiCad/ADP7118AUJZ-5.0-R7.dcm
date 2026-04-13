@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP7118AUJZ-5.0-R7
+D 20 V, 200 mA, Low Noise, CMOS LDO Linear Regulator
+K
+F https://www.analog.com/ADP7118/datasheet
+$ENDCMP
+#
+#End Doc Library

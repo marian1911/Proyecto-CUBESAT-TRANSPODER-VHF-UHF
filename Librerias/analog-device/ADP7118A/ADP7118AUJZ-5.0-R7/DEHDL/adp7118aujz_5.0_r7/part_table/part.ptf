@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADP7118AUJZ_5.0_R7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "ADP7118AUJZ-5.0-R7" (!) = "", "SOT95P280X100-5N", "SOT23 (5-Pin)", "584-ADP7118AUJZ5.0R7", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP7118AUJZ-5.0-R7?qs=hpwIUhX6lWzp%252BHPslBdPxA%3D%3D", "20 V, 200 mA, Low Noise, CMOS LDO Linear Regulator", "https://www.analog.com/ADP7118/datasheet", "1 mm"
+END_PART
+
+END.

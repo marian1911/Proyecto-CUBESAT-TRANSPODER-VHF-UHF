@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SXLP_450_'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "SXLP-450+" (!) = "", "SXLP450", "Other", "", "", "465MHz (Cutoff) Frequency Low Pass RF Filter (Radio Frequency) Bandwidth 2.5dB 8-SMD, No Lead", "https://www.minicircuits.com/pdfs/SXLP-450+.pdf?srsltid=AfmBOopyfng1W_JE_YCYT7VOxU4Z8bevNLx0xfxbggheauuZmJBv02wv", "6.86 mm"
+END_PART
+
+END.

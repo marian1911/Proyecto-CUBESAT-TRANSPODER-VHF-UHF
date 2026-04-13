@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PSA-5454+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-30-06:41:26)
+    (mountForm default
+        (footprintRef "SOT65P215X100-6N")
+        (spec "System")
+    )
+)

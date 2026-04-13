@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SXLP-450+
+D 465MHz (Cutoff) Frequency Low Pass RF Filter (Radio Frequency) Bandwidth 2.5dB 8-SMD, No Lead
+K
+F https://www.minicircuits.com/pdfs/SXLP-450+.pdf?srsltid=AfmBOopyfng1W_JE_YCYT7VOxU4Z8bevNLx0xfxbggheauuZmJBv02wv
+$ENDCMP
+#
+#End Doc Library

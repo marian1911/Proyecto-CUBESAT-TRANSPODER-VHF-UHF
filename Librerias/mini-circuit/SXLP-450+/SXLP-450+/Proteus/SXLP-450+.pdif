@@ -1,0 +1,190 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SXLP-450+"
+   (description "465MHz (Cutoff) Frequency Low Pass RF Filter (Radio Frequency) Bandwidth 2.5dB 8-SMD, No Lead")
+   (family "ANA")
+   (package "SXLP450")
+   (attribute "Datasheet Link" "https://www.minicircuits.com/pdfs/SXLP-450+.pdf?srsltid=AfmBOopyfng1W_JE_YCYT7VOxU4Z8bevNLx0xfxbggheauuZmJBv02wv")
+   (attribute "Geometry.Height" "6.86mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Mini-Circuits")
+   (attribute "Manufacturer_Part_Number" "SXLP-450+")
+   (gate
+    (symbol "SXLP-450+")
+    (pin "INPUT" 1 PS)
+    (pin "GROUND_1" 2 PS)
+    (pin "GROUND_2" 3 PS)
+    (pin "GROUND_3" 4 PS)
+    (pin "GROUND_4" 5 PS)
+    (pin "GROUND_5" 6 PS)
+    (pin "GROUND_6" 7 PS)
+    (pin "OUTPUT" 8 PS)
+   )
+  )
+  (symbol "SXLP-450+"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SXLP450"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.4 5.59)
+      (pt 9.4 5.59)
+      (pt 9.4 -5.59)
+      (pt -9.4 -5.59)
+      (pt -9.4 5.59))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.4 6.97)
+      (pt 10.4 6.97)
+      (pt 10.4 -6.97)
+      (pt -10.4 -6.97)
+      (pt -10.4 6.97))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.8 5.59)
+      (pt -9.4 5.59)
+      (pt -9.4 -5.59)
+      (pt -8.8 -5.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 8.8 5.59)
+      (pt 9.4 5.59)
+      (pt 9.4 -5.59)
+      (pt 8.8 -5.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.62 -6.4)
+      (arc (pt -7.620 -6.400) (pt -7.670 -6.500) (pt -7.570 -6.400) (start 180.0) (sweep 90.0))
+      (pt -7.62 -6.5)
+      (arc (pt -7.620 -6.500) (pt -7.670 -6.500) (pt -7.570 -6.400) (start 180.0) (sweep -90.0))
+      (pt -7.62 -6.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6.4 5.59)
+      (pt -3.8 5.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.2 5.59)
+      (pt 1.2 5.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.8 5.59)
+      (pt 6.4 5.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6.4 -5.6)
+      (pt -3.8 -5.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.2 -5.59)
+      (pt 1.2 -5.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.8 -5.6)
+      (pt 6.4 -5.6))))
+   (leg 1 (pt -7.620 -5.270) (padstack 0))
+   (leg 2 (pt -7.620 5.270) (padstack 0))
+   (leg 3 (pt -2.540 -5.270) (padstack 0))
+   (leg 4 (pt -2.540 5.270) (padstack 0))
+   (leg 5 (pt 2.540 -5.270) (padstack 0))
+   (leg 6 (pt 2.540 5.270) (padstack 0))
+   (leg 7 (pt 7.620 -5.270) (padstack 0))
+   (leg 8 (pt 7.620 5.270) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.400 1.520 0 0 0.000))
+   )
+   (model "SXLP-450+.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

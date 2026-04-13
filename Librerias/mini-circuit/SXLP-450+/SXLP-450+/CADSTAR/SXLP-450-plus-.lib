@@ -1,0 +1,16 @@
+.SXLP-450-plus- :1 ;465MHz (Cutoff) Frequency Low Pass RF Filter (Radio Frequency) Bandwidth 2.5dB 8-SMD, No Lead
+SXLP450
+*STM FL
+*NGS
+*PLB 1="INPUT" 2="GROUND_1" 3="GROUND_2" 4="GROUND_3" 5="GROUND_4" 6="GROUND_5" 7="GROUND_6" 8="OUTPUT"
+*MXP 8
+*DFN SXLP-450-plus-
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (SXLP-450+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/SXLP-450+.pdf?srsltid=AfmBOopyfng1W_JE_YCYT7VOxU4Z8bevNLx0xfxbggheauuZmJBv02wv)
+~!Height (6.86mm)
+~!3D_Model (SXLP-450+)
+SXLP-450-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 
