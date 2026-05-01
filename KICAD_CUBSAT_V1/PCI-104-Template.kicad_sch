@@ -7402,6 +7402,16 @@
 		)
 		(uuid "4ec23975-e043-472c-8f43-9a18faffdf89")
 	)
+	(text "Capacitor, 2.2µF, 0603, 10 V, X5R"
+		(exclude_from_sim no)
+		(at 63.246 146.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bfe8d93-525a-4c24-b7fd-86c6c171d6e2")
+	)
 	(text "FILTER\n"
 		(exclude_from_sim yes)
 		(at 270.256 115.062 0)
@@ -7423,6 +7433,16 @@
 			(justify left)
 		)
 		(uuid "7973ab88-0c68-4da4-9bac-ffc43a4d1c2f")
+	)
+	(text "Capacitor, 2.2µF, 0603, 10 V, X5R"
+		(exclude_from_sim no)
+		(at 204.216 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ed25760-13df-475f-babc-a87a4cac6367")
 	)
 	(text "Low-pass filter, 440MHz cutoff\n5th order \nChebyshev , PI-type,\nImpedance 50"
 		(exclude_from_sim no)
@@ -7594,13 +7614,13 @@
 		(uuid "53bd06e3-cc65-4d5f-b7ae-99a28635132f")
 	)
 	(junction
-		(at 50.8 193.04)
+		(at 53.34 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61ce5ca4-e3d0-43f3-8962-d5da9111cbd4")
 	)
 	(junction
-		(at 50.8 209.55)
+		(at 53.34 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c17eb41-3f1d-441d-9494-aa73d7e34b56")
@@ -7768,7 +7788,7 @@
 		(uuid "f0a44587-1c3f-494f-8069-3e68f1d3a674")
 	)
 	(junction
-		(at 50.8 226.06)
+		(at 53.34 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f177badf-a5f1-442f-ad10-bc751e5cd403")
@@ -7999,6 +8019,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 90.17) (xy 200.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09eee960-ec91-4c36-b66c-990688127974")
+	)
+	(wire
+		(pts
 			(xy 187.96 71.12) (xy 187.96 73.66)
 		)
 		(stroke
@@ -8139,7 +8169,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 193.04) (xy 55.88 193.04)
+			(xy 53.34 193.04) (xy 55.88 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8419,7 +8449,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 226.06) (xy 55.88 226.06)
+			(xy 53.34 226.06) (xy 55.88 226.06)
 		)
 		(stroke
 			(width 0)
@@ -8539,7 +8569,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 193.04) (xy 50.8 193.04)
+			(xy 40.64 193.04) (xy 53.34 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8629,7 +8659,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 209.55) (xy 55.88 209.55)
+			(xy 53.34 209.55) (xy 55.88 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9399,7 +9429,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 226.06) (xy 50.8 226.06)
+			(xy 40.64 226.06) (xy 53.34 226.06)
 		)
 		(stroke
 			(width 0)
@@ -9619,7 +9649,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 209.55) (xy 50.8 209.55)
+			(xy 40.64 209.55) (xy 53.34 209.55)
 		)
 		(stroke
 			(width 0)
@@ -12089,6 +12119,16 @@
 		)
 		(uuid "15f07fc7-844b-4376-abdc-658faf6cd0a6")
 	)
+	(label "5V"
+		(at 200.66 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ae39199-5e25-41e8-a7c3-80f8753d9059")
+	)
 	(label "DVDD"
 		(at 26.67 193.04 0)
 		(effects
@@ -12299,16 +12339,6 @@
 		)
 		(uuid "bcc0cf19-2090-409e-9dfd-722575161378")
 	)
-	(label "POWER_IN"
-		(at 66.04 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3305bbc-7de1-4830-9e5a-4f94978f739f")
-	)
 	(label "LNA_ENABLE"
 		(at 49.53 138.43 0)
 		(effects
@@ -12388,6 +12418,16 @@
 			(justify left bottom)
 		)
 		(uuid "f1fdcc92-7f20-476b-a19f-981c4e453198")
+	)
+	(label "5V"
+		(at 66.04 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f249cbad-55f8-4022-9437-7bdcd357ecd8")
 	)
 	(label "VVCO"
 		(at 175.26 200.66 90)
@@ -15125,7 +15165,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 213.36 180)
+		(at 53.34 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15133,7 +15173,7 @@
 		(dnp no)
 		(uuid "3689d25f-e247-4ec7-879f-7f01b9f3dfc4")
 		(property "Reference" "C12"
-			(at 52.578 211.074 0)
+			(at 55.118 211.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15142,7 +15182,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 51.816 215.9 0)
+			(at 54.356 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15151,7 +15191,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.8348 209.55 0)
+			(at 52.3748 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15160,7 +15200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 213.36 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,7 +15209,7 @@
 			)
 		)
 		(property "Description" "10 pF, 0402, 50 V, NP0"
-			(at 50.8 213.36 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,7 +15218,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM1555C1H100JA01D"
-			(at 50.8 213.36 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15187,7 +15227,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM1555C1H100JA1D"
-			(at 50.8 213.36 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,7 +15236,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 50.8 213.36 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15205,7 +15245,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 50.8 213.36 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15295,7 +15335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 233.68 0)
+		(at 53.34 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15304,7 +15344,7 @@
 		(fields_autoplaced yes)
 		(uuid "37e71277-b619-47a0-bb3a-161360d7c651")
 		(property "Reference" "#PWR025"
-			(at 50.8 240.03 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,7 +15353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 238.76 0)
+			(at 53.34 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15321,7 +15361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 233.68 0)
+			(at 53.34 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15330,7 +15370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 233.68 0)
+			(at 53.34 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15339,7 +15379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 233.68 0)
+			(at 53.34 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17741,7 +17781,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 200.66 0)
+		(at 53.34 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17750,7 +17790,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b3a836d-8a20-40b6-96b8-e5d994274694")
 		(property "Reference" "#PWR017"
-			(at 50.8 207.01 0)
+			(at 53.34 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17759,7 +17799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 205.74 0)
+			(at 53.34 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17767,7 +17807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 200.66 0)
+			(at 53.34 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17776,7 +17816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 200.66 0)
+			(at 53.34 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17785,7 +17825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 200.66 0)
+			(at 53.34 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17979,7 +18019,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 229.87 180)
+		(at 53.34 229.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17987,7 +18027,7 @@
 		(dnp no)
 		(uuid "5e39e593-4442-423e-8099-3983250955ea")
 		(property "Reference" "C17"
-			(at 52.578 227.584 0)
+			(at 55.118 227.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17996,7 +18036,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 51.816 232.41 0)
+			(at 54.356 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18005,7 +18045,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.8348 226.06 0)
+			(at 52.3748 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18014,7 +18054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 229.87 0)
+			(at 53.34 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18023,7 +18063,7 @@
 			)
 		)
 		(property "Description" "10 pF, 0402, 50 V, NP0"
-			(at 50.8 229.87 0)
+			(at 53.34 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18032,7 +18072,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM1555C1H100JA01D"
-			(at 50.8 229.87 0)
+			(at 53.34 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18041,7 +18081,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM1555C1H100JA1D"
-			(at 50.8 229.87 0)
+			(at 53.34 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18050,7 +18090,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 50.8 229.87 0)
+			(at 53.34 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18059,7 +18099,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 50.8 229.87 0)
+			(at 53.34 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22964,7 +23004,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 196.85 180)
+		(at 53.34 196.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22972,7 +23012,7 @@
 		(dnp no)
 		(uuid "d6cfae43-5da8-4b0a-9756-d81d5ea9eeba")
 		(property "Reference" "C7"
-			(at 52.578 194.564 0)
+			(at 55.118 194.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22981,7 +23021,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 51.816 199.39 0)
+			(at 54.356 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22990,7 +23030,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.8348 193.04 0)
+			(at 52.3748 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22999,7 +23039,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 196.85 0)
+			(at 53.34 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23008,7 +23048,7 @@
 			)
 		)
 		(property "Description" "10 pF, 0402, 50 V, NP0"
-			(at 50.8 196.85 0)
+			(at 53.34 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23017,7 +23057,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM1555C1H100JA01D"
-			(at 50.8 196.85 0)
+			(at 53.34 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23026,7 +23066,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM1555C1H100JA1D"
-			(at 50.8 196.85 0)
+			(at 53.34 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23035,7 +23075,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 50.8 196.85 0)
+			(at 53.34 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23044,7 +23084,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 50.8 196.85 0)
+			(at 53.34 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23515,7 +23555,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 217.17 0)
+		(at 53.34 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23523,7 +23563,7 @@
 		(dnp no)
 		(uuid "de8478f0-8c2b-437f-b955-3c70b146de09")
 		(property "Reference" "#PWR022"
-			(at 50.8 223.52 0)
+			(at 53.34 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23532,7 +23572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 222.25 0)
+			(at 53.34 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23540,7 +23580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 217.17 0)
+			(at 53.34 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23549,7 +23589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 217.17 0)
+			(at 53.34 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23558,7 +23598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 217.17 0)
+			(at 53.34 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
