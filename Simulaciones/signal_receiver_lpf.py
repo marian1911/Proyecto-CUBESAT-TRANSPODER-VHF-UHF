@@ -9,7 +9,7 @@ BW_SIG = 0.1
 F_LO = 580.0       
 
 PWR_IN = 0.0           
-LO_DRIVE = 7.0         
+LO_DRIVE = 8.0         
 CONV_LOSS = 6.6        
 ISOLATION_LR = 40.0    
 ISOLATION_IF_RF = 35.0 
@@ -20,7 +20,7 @@ PWR_USB = PWR_IN - CONV_LOSS
 PWR_RF_LEAK = PWR_IN - ISOLATION_IF_RF        
 PWR_3RD_HARM = PWR_LSB - 40.0                 
 
-NOISE_FLOOR = -110.0   
+NOISE_FLOOR = -115.0   
 RBW = 1.0              
 
 # =============================================================================
