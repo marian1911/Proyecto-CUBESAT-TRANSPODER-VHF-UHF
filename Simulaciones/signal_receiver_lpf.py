@@ -8,7 +8,7 @@ F_SIG = 146.0
 BW_SIG = 0.1       
 F_LO = 580.0       
 
-PWR_IN = 0.0           
+PWR_IN = -11.8           
 LO_DRIVE = 8.0         
 CONV_LOSS = 6.6        
 ISOLATION_LR = 40.0    
