@@ -5402,89 +5402,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -7490,7 +7407,7 @@
 	)
 	(rectangle
 		(start 16.51 110.49)
-		(end 330.2 186.69)
+		(end 164.465 186.69)
 		(stroke
 			(width 0.2)
 			(type dash)
@@ -7511,6 +7428,18 @@
 			(type none)
 		)
 		(uuid 1ef130ae-5277-4550-a5a5-583ba2e41263)
+	)
+	(rectangle
+		(start 168.275 110.49)
+		(end 330.2 186.69)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b2777c1-ccf7-4142-a467-8e294f3f5499)
 	)
 	(rectangle
 		(start 106.68 13.97)
@@ -7538,7 +7467,7 @@
 	)
 	(rectangle
 		(start 332.74 110.49)
-		(end 400.05 176.53)
+		(end 400.05 186.69)
 		(stroke
 			(width 0.2)
 			(type dash)
@@ -7582,7 +7511,7 @@
 	)
 	(text "Filter Components:\nDielectric NP0/C0G\nCase 0402\nTolerance Cap 1% / Ind 2%\nSRF 3.5GHz\nGJM1555C1H100FB01\nGJM1555C1H160FB01\nLQW15AN27NG00"
 		(exclude_from_sim yes)
-		(at 339.344 165.862 0)
+		(at 334.264 176.276 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7612,6 +7541,17 @@
 			(justify left)
 		)
 		(uuid "2d52e4cc-325e-483c-b755-9d84574645d6")
+	)
+	(text "AMPLIFIER"
+		(exclude_from_sim yes)
+		(at 177.546 113.538 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+		(uuid "34867624-7e0b-444e-8d4d-d1315db0248e")
 	)
 	(text "C 5.6pF   GJM1555C1H5R6WB01D\nL 30nH    LQW15AN30NG00D\nLDC 120nH LQW15AWR12G80D\nCDC 120pF GRM1555C1H121JA01D"
 		(exclude_from_sim no)
@@ -7690,7 +7630,7 @@
 	)
 	(text "Low-pass filter, 440MHz cutoff\n5th order \nChebyshev , PI-type,\nImpedance 50"
 		(exclude_from_sim no)
-		(at 368.046 157.226 0)
+		(at 361.442 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7807,6 +7747,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13ca5d15-d5df-4809-a845-736a6adcaca3")
+	)
+	(junction
+		(at 124.46 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1756322e-5357-4b88-ad03-323d7533cbde")
 	)
 	(junction
 		(at 228.6 220.98)
@@ -7999,6 +7945,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c6faa0a-daab-4ad6-9df1-b6efff0b20c8")
+	)
+	(junction
+		(at 162.56 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d7578cc-46ad-482f-b062-ce6be275a753")
 	)
 	(junction
 		(at 218.44 157.48)
@@ -8348,6 +8300,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 69.85) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0296e22c-ad8d-4d88-b41e-1430c5ae1478")
+	)
+	(wire
+		(pts
 			(xy 81.28 205.74) (xy 81.28 209.55)
 		)
 		(stroke
@@ -8465,6 +8427,16 @@
 			(type default)
 		)
 		(uuid "09419286-3d94-470a-93b4-1f7e49ad4560")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09870b48-8fb2-45c1-afbe-5fddc00881b8")
 	)
 	(wire
 		(pts
@@ -8635,6 +8607,16 @@
 			(type default)
 		)
 		(uuid "132271b8-a7d5-4855-97b4-1de0aec593e5")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137ac3a6-34e1-4388-ad41-ef2c817ca33c")
 	)
 	(wire
 		(pts
@@ -8865,6 +8847,16 @@
 			(type default)
 		)
 		(uuid "28769680-c0ff-444f-b75b-ac90f9d9ae41")
+	)
+	(wire
+		(pts
+			(xy 116.84 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2972331d-83dd-4d09-9330-a9136a4d6e81")
 	)
 	(wire
 		(pts
@@ -9898,6 +9890,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a3e4e4-9340-4f20-9568-50e0c6923a89")
+	)
+	(wire
+		(pts
 			(xy 187.96 151.13) (xy 196.85 151.13)
 		)
 		(stroke
@@ -10048,16 +10050,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 71.12) (xy 162.56 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b935e1a-8aa7-4025-bf20-d05162da5aba")
-	)
-	(wire
-		(pts
 			(xy 223.52 234.95) (xy 223.52 245.11)
 		)
 		(stroke
@@ -10088,7 +10080,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 248.92) (xy 287.02 248.92)
+			(xy 251.46 248.92) (xy 287.02 248.92)
 		)
 		(stroke
 			(width 0)
@@ -10488,6 +10480,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 76.2) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac46a5f8-26cd-468d-a0a0-a481c18910e8")
+	)
+	(wire
+		(pts
+			(xy 124.46 71.12) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae12d9a1-9426-4b4f-b7c6-f68eefb455d4")
+	)
+	(wire
+		(pts
 			(xy 26.67 175.26) (xy 25.4 175.26)
 		)
 		(stroke
@@ -10578,7 +10590,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 252.73) (xy 264.16 248.92)
+			(xy 251.46 252.73) (xy 251.46 248.92)
 		)
 		(stroke
 			(width 0)
@@ -11108,7 +11120,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 252.73) (xy 264.16 252.73)
+			(xy 146.05 69.85) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4478c52-7dff-43e4-96bb-f6f9c69a0379")
+	)
+	(wire
+		(pts
+			(xy 198.12 252.73) (xy 251.46 252.73)
 		)
 		(stroke
 			(width 0)
@@ -16654,6 +16676,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 116.84 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19742319-8064-4081-b910-6b0139a4c239")
+		(property "Reference" "#PWR080"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cec281f-1812-4287-aa50-9a455b5fac85")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 29.21 175.26 180)
 		(unit 1)
@@ -18136,6 +18224,93 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cc2b683-b502-4676-a04d-3f4298989320")
+		(property "Reference" "C53"
+			(at 108.966 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 108.966 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 115.8748 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitores cerámicos de capas múltiples (MLCC) - SMD/SMT MLCC 2012, 10uF, 10%, X5R, 25VDC"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRT21BR61E106KE3L"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRT21BR61E106KE13L"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e9da0eb-6eae-48c2-b094-1f5a82909186")
+		)
+		(pin "1"
+			(uuid "acb455ae-be2c-42c4-9592-118c881ecb6c")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -19810,88 +19985,6 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 80.01 91.44 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "414a2941-8538-49b2-9bb2-3514d6aeddaf")
-		(property "Reference" "H7"
-			(at 82.55 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 82.55 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 80.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 80.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 80.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 80.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -23972,88 +24065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 80.01 81.28 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78259a4c-015f-4eee-9322-90637f100c66")
-		(property "Reference" "H5"
-			(at 82.55 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 82.55 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 285.75 138.43 270)
 		(unit 1)
@@ -25958,6 +25969,72 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c3122d4-b23f-4738-9ebe-87448a7cc4f3")
+		(property "Reference" "#PWR081"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "486d2948-31b3-442a-a4bb-f4ad85a2a377")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -30239,88 +30316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 80.01 96.52 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df87b9e3-af4a-4dd3-a5c7-27cb9373da01")
-		(property "Reference" "H8"
-			(at 82.55 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 82.55 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 80.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 80.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 80.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 80.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 260.35 179.07 0)
 		(unit 1)
@@ -31923,88 +31918,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 80.01 86.36 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa1bac50-9c5e-4992-bc4d-2a535c641aa9")
-		(property "Reference" "H6"
-			(at 82.55 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 82.55 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 80.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 80.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 80.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 80.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PCI-104-Template"
-				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 193.04 116.84 90)
 		(unit 1)
@@ -32086,6 +31999,93 @@
 			(project "PCI-104-Template"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd3c9e7e-9c4c-41e7-9ba7-25fe279646e5")
+		(property "Reference" "C54"
+			(at 127.508 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 127.508 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 123.4948 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF, 0402, 16 V, X7R"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71C104KA88D"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R71C104KA88"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddd99b61-526e-42ae-aeca-7bb72917cc26")
+		)
+		(pin "1"
+			(uuid "75753369-ffe9-4193-be9f-6166ab309a1f")
+		)
+		(instances
+			(project "PCI-104-Template"
+				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a"
+					(reference "C54")
 					(unit 1)
 				)
 			)
