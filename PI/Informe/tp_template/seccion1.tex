@@ -1,0 +1,207 @@
+\section{Introducción}
+
+\subsection{Estilos de texto y listas}
+
+Esto es un texto de ejemplo. Para generar párrafos en latex se puede escribir normalmente en un archivo \texttt{.tex}. Notar que en el editor un mismo párrafo aparece en una única línea de ``código".
+
+Se puede modificar el estilo de texto para hacer \textit{partes en itálica} y \textbf{partes en negrita}, además se pueden incluir \texttt{palabras en fuente monoespaciada} o \underline{texto subrayado}. Además se pueden insertar listados o enumeraciones de items, por ejemplo:
+
+\begin{itemize}
+    \item Item principal
+    \begin{itemize}
+        \item Subitem 1
+        \item Subitem 2
+    \end{itemize}
+    \item Otro item principal
+\end{itemize}
+
+\begin{enumerate}
+    \item Primer Item
+    \begin{enumerate}
+        \item Subitem enumerado
+        \item Otro subitem enumerado
+    \end{enumerate}
+    \item Segundo item
+\end{enumerate}
+
+\subsection{Ecuaciones}
+
+Para insertar una ecuación se debe contar con el paquete \texttt{amsmath} incluido en el preámbulo del documento, en el archivo \texttt{main.tex} (o el archivo que se configure para compliarse como principal). Se puede insertar una ecuación en línea $e=mc^2$, o una ecuación enumerada o no enumerada. \footnote{Para más información de cómo escribir expresiones matemáticas con código visitar la url \url{https://www.overleaf.com/learn/latex/Mathematical_expressions}}
+
+\begin{equation}
+    s(\omega) = \left[ \left(\frac{1}{2}\right)^2 e^{j \pi \omega} \right] \int_{-\infty}^{\infty} \sum_{i=0}^{i=10} a_i dx
+    \label{eq:algun_nombre}
+\end{equation}
+
+\begin{equation*}
+    x_1,x_2 = \frac{-b \pm \sqrt{b^2 -4ac} }{2a}
+\end{equation*}
+
+Se pueden hacer matrices
+
+\begin{equation}
+    x = \begin{bmatrix}
+        1 & 2 & 3\\
+        a & b & c
+        \end{bmatrix}
+\end{equation}
+
+Se pueden separar en renglones ecuaciones muy largas con \texttt{split}
+
+\begin{equation}
+    \begin{split}
+        a = a_1 sin(\omega_0 t) + a_2 sin(2\omega_0 t) + a_3 sin(3\omega_0 t) + a_4 sin(4\omega_0 t) + a_5 sin(5\omega_0 t) + a_6 sin(6\omega_0 t) \\ + a_7 sin(7\omega_0 t) + a_8 sin(8\omega_0 t)
+    \end{split}
+\end{equation}
+
+Se puede hacer un desarrollo de despejes agregando un caracter \texttt{\&} en el \textit{enviroment} \texttt{aligned} para alinear los miembros de ecuaciones
+
+\begin{equation}
+    \begin{split}
+        V_{out} &= V_{in} \frac{R_1}{R_1+R_2} \\
+        \frac{V_{in}}{V_{out}} &= \frac{R_1+R_2}{R_1} \\
+        \frac{V_{out}}{V_{in}} &= 1+\frac{R_2}{R_1} \\
+        \Aboxed{R_2 &= R_1 \left( \frac{V_{out}}{V_{in}} - 1 \right)}
+    \end{split}
+\end{equation}
+
+Además, se pueden agregar casos a una ecuación con \texttt{cases}:
+
+\begin{equation}
+    \begin{cases}
+    x = 0 ~~ \forall ~~ x < 0\\
+    x = 1 ~~ \forall ~~ 0 \leq x \geq 1 \\
+    x = 0 ~~ \forall ~~ x > 1 
+    \end{cases}
+\end{equation}
+
+
+Las ecuaciones se pueden referenciar si se le asigna una etiqueta con el comando \texttt{label}, por ejemplo, en la \autoref{eq:algun_nombre} se asigno una etiqueta llamada \textit{eq:algun\_nombre} y se usó para referenciarla, si se repiten las etiquetas, el editor lo indicará como un error.
+
+\subsection{Figuras}
+
+Para agregar figuras, asegurarse de contar con el paquete \texttt{graphicx} en el archivo a compilar. Notar que al igual que en las ecuaciones, se puede referenciar con la etiqueta, como el caso de la \autoref{fig:fm_radio_receiver}. Notar que el tamaño de la figura se especifica como un porcentaje del ancho del texto (delimitado por los márgenes). Al lado del inicio de la figura se puede especificar con una letra el lugar donde se quiere tratar de que \LaTeX ponga la figura, por ejemplo:
+
+\begin{itemize}
+    \item \texttt{h}: \textit{here} (\texttt{!h} más insistente)
+    \item \texttt{t}: \textit{top}
+    \item \texttt{b}: \textit{bottom}
+    \item \texttt{ht}: intentá \textit{here}, si no se puede, \textit{top}
+\end{itemize}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/fm_radio_receiver.png}
+    \caption{Circuito Recetor de FM}
+    \label{fig:fm_radio_receiver}
+\end{figure}
+
+La \autoref{fig:tikzcirc} es un circuito diseñado con \url{https://circuit2tikz.tf.fau.de/designer/}
+
+\begin{figure}
+    \centering
+    \begin{tikzpicture}
+    	% Paths, nodes and wires:
+    	\draw (7, 4.5) to[capacitor, l={$C_f$}] (7, 3);
+    	\node[op amp, yscale=-1](N1) at (6.083, 6.711){} node[anchor=center] at (N1.text){$LM741$};
+    	\node[ground] at (7, 3){};
+    	\draw (9, 6) to[american resistor, l={$R_L$}] (9, 4.5);
+    	\draw (5, 4.5) to[american resistor, l={$R_f$}] (7, 4.5);
+    	\node[ground] at (9, 4.5){};
+    	\draw (2, 6) to[sinusoidal voltage source, l_={$v_1$}, label distance=-0.01cm] (2, 4.75);
+    	\node[ground] at (2, 4.75){};
+    	\draw[latex-] (4.893, 7.201) -| (2, 6);
+    	\draw (4.893, 6.221) |- (5, 4.5);
+    	\draw (7.273, 6.711) -| (9, 6);
+    	\draw (9, 6) |- (7, 6) -| (7, 4.5);
+    	\node[circ] at (10, 6.711){};
+    	\draw (9, 6.711) -| (10, 6.75);
+    	\node[shape=rectangle, minimum width=0.965cm, minimum height=0.715cm] at (10.5, 6.711){} node[anchor=north west, align=left, text width=0.577cm, inner sep=6pt] at (10, 7.086){$v_{out}$};
+    	\node[shape=rectangle, minimum width=0.965cm, minimum height=0.715cm] at (9.5, 4.75){} node[anchor=north west, align=left, text width=0.577cm, inner sep=6pt] at (9, 5.125){$50\Omega$};
+    	\node[shape=rectangle, minimum width=0.965cm, minimum height=0.715cm] at (7.75, 3.25){} node[anchor=north west, align=left, text width=0.577cm, inner sep=6pt] at (7.25, 3.625){$10\mu F$};
+    	\node[shape=rectangle, minimum width=0.965cm, minimum height=0.715cm] at (6, 4){} node[anchor=north west, align=left, text width=0.577cm, inner sep=6pt] at (5.5, 4.375){$1k\Omega$};
+    	\draw[-latex] (3.5, 8) -| (3.5, 6.75) -- (4.25, 6.75);
+    	\node[shape=rectangle, minimum width=0.965cm, minimum height=0.715cm] at (3.5, 8.375){} node[anchor=north west, align=left, text width=0.577cm, inner sep=6pt] at (3, 8.75){$Z_{in}$};
+        
+    \end{tikzpicture}
+    \caption{Circuito de ejemplo con circuitkz}
+    \label{fig:tikzcirc}
+\end{figure}
+
+
+\subsection{Tablas}
+
+Se pueden generar tablas en \url{https://tablesgenerator.com/} (incluso se puede pegar desde Microsoft Excel, Libre Office Calc o Google Sheets y generar el código necesario). Al igual que con ecuaciones y figuras, se puede referenciar con la etiqueta: \autoref{tab:tabla_ejemplo}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor[HTML]{9698ED} 
+\textbf{} & \textbf{Columna 1} & \textbf{Columna 2} \\ \hline
+Fila 1 & $y = ax + b$ & 3 \\ \hline
+Fila 2 & 5 & test \\ \hline
+\end{tabular}
+\caption{Tabla de Ejemplo}
+\label{tab:tabla_ejemplo}
+\end{table}
+
+Si las tablas son demasiado grandes, se puede tildar la opción para que se ajusten al \texttt{textwidth} en \url{https://tablesgenerator.com/} 
+
+\subsection{Citas}
+
+Por último, se puede generar citas bibliográficas con bibtex, hay mucha documentación de cómo hacerlo en \href{https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex}{en este link}, pero se presenta un ejemplo sencillo. En cualquier artículo del IEEE se presenta una sección para tomar la cita, se realizará con el artículo de \href{https://ieeexplore.ieee.org/document/8310054}{este enlace}. \cite{8310054}
+
+También se puede crear una entrada de bibliografía con los datos que se dispongan y citarla. \cite{ea3_2023}
+
+\subsection{Tips}
+
+\begin{itemize}
+    \item Overleaf es particularmente útil porque se puede trabajar de manera colaborativa (como en Google Docs), se puede hacer comentarios (como el que está hecho aquí), y se ven en el editor.
+    \begin{itemize}
+        \item Se pueden ver los comentarios en el botón \textbf{Review}
+        \item El documento se puede compartir con el botón \textbf{Share}
+        \item Para implementar un control de cambios se puede sincronizar el proyecto con GitHub en el menú de integraciones.
+        \item En la versión gratuita de Overleaf hay un límite de personas que pueden tener el documento compartido (hasta 3) y no se puede hacer un `control de cambios' en vivo. La versión gratuita también tiene un tiempo máximo de compilación, si tienen muchas imagenes muy `pesadas' es probable que necesiten usar un editor de \LaTeX offline
+        \item Existe un chat entre los que estén conectados al documento. 
+        \item Si el documento es pequeño se puede activar la auto-compilación para ver los cambios en el PDF en vivo (útil para empezar, pero a medida que se acostumbran es mejor compilar manualmente luego de muchos cambios). También existe la versión de compilación borrador (\textit{draft}), que no compila imágenes.
+        \item Para insertar imágenes, se puede pegar directamente (Ctrl+V), abriendo un cuadro de dialogo para definir nombre, ubicación y ancho de la imagen, generando el código automáticamente.
+        \item En Layout pueden modificar las ventanas para ver solo el código, o poner el PDF en otra pestaña
+        \item En Menú (Esquina superior izquierda) pueden modificar el estilo del editor, el tema (poner modo oscuro), la fuente del editor, cambiar el idioma del corrector, el compilador, el archivo principal, etc. Además, pueden descargar el código fuente con todas las imagenes, o el PDF renderizado.
+    \end{itemize}
+    \item Overleaf tiene muy bajo tiempo de compilación, para proyectos muy grandes que lo superan se puede evitar usar las opciones pagas de dos maneras:
+    \begin{itemize}
+        \item Activar el modo draft para trabajar colaborativamente y corroborar que funciona el código
+        \item Si el modo draft no es suficiente, se pueden comentar bloques de código con los comandos \textit{begin{comment}} y \textit{end{comment}}
+    \end{itemize}
+    \item Hay muchas aplicaciones para editar \LaTeX offline, luego de usar las opciones anteriores se puede descargar alguna de estas alternativas 
+    \begin{itemize}
+        \item TeXStudio (\url{https://www.texstudio.org/}) + Miktex (\url{https://miktex.org/download}). TexStudio tiene un gestor de paquetes para descargar e instalar todos los paquetes que incluyen en el preámbulo.
+        \item Se puede compilar directo en Visual Studio Code, utilizando la extensión LaTeX Workshop (\url{https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop}, es necesario también instalar Strawberry Perl para compilar \texttt{latexmk}, un script que automatiza la generación de los PDFs (\url{https://strawberryperl.com/})
+    \end{itemize}
+    
+    
+    \item Hay muchos tutoriales disponibles, un aspecto importante de usar \LaTeX es utilizar la document class adecuada y saber buscar (preferentemente en inglés) lo que se necesita \url{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}
+    \item Existe un libro (no tan corto) de introducción a \LaTeX, para tener de referencia algunas funciones: \url{https://tobi.oetiker.ch/lshort/lshort.pdf}
+    \item La documentación de la mayoría de los paquetes se puede encontrar en CTAN: \url{https://www.ctan.org/}
+    \item Para escribir una tesis o proyecto integrador, puede ser interesante hacer un documento doble faz: \url{https://www.overleaf.com/learn/latex/Single_sided_and_double_sided_documents}
+    \item Se puede modificar el tamaño de página y los márgenes \url{https://www.overleaf.com/learn/latex/Page_size_and_margins}
+    \item Se pueden insertar PDFs enteros o partes de PDF directamente en el documento: \url{https://latex-tutorial.com/insert-pdf-file/}
+    \item Se puede cambiar el estilo de listas de enumeración (1, 1.a, 1.b; 1, 1.1, 1.2; I, I.I, I.II): \url{https://www.overleaf.com/learn/latex/Lists}
+    \item Se pueden personalizar los encabezados y pie de página: \url{https://es.overleaf.com/learn/latex/Headers_and_footers}
+    \item Se puede reutilizar código de un informe para hacer presentaciones con beamer: \url{https://es.overleaf.com/learn/latex/Beamer}
+    \item Se puede incluir imagenes en formato PDF para evitar que se pixelen: \url{https://www.ctan.org/pkg/pdfpages}
+    \item Se puede cambiar la separación de párrafos, lineas, tamaños de fuentes y familias de fuentes.
+    \item Existen paquetes para dibujar circuitos con código, no es recomendable si hay una gran cantidad de circuitos en el documento, por el tiempo de compilación: Las documentación de este paquete es muy extensa: \url{https://es.overleaf.com/learn/latex/CircuiTikz_package} y \url{https://ctan.dcc.uchile.cl/graphics/pgf/contrib/circuitikz/doc/circuitikzmanual.pdf}
+    \item En lugar de usar circuitikz, desde el 2023 existe una interfaz gráfica que genera el código.
+    \item Usar la bibliografía con bibtex tiene la enorme ventaja de que fácilmente puede cambiarse el formato de las citas y las referencias, para adecuarse con los formatos solicitados por la facultad, congresos, revistas, etc. Se puede alterar el orden de las referencias, dividirlas según su tipo, y citar cosas con DOI (Digital object identifier) como artículos y libros, sitios web o cualquier tipo de material académico. Consultar la documentación: \url{https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex}
+\end{itemize}
+
+\subsection{Comentarios finales}
+
+\begin{itemize}
+    \item Este documento está dirigido a fomentar el uso de \LaTeX para la generación de informes académicos.
+    \item En este link se encontrará la versión más nueva de este template: \url{https://www.overleaf.com/read/ssfxdztpsbsx#13d015}
+    \item Existe otro template para hacer presentaciones: \url{https://www.overleaf.com/read/qcbhtvtbythb#c59265}
+    \item Dirigir comentarios y sugerencias a \href{mailto:federico.tomas.dadam@unc.edu.com}{federico.tomas.dadam@unc.edu.com}
+\end{itemize}
